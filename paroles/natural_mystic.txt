@@ -1,0 +1,3 @@
+titre: Natural Mystic
+artist: Bob Marley
+paroles:

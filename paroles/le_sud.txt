@@ -1,0 +1,3 @@
+titre: Le Sud
+artist: Nino Ferrer
+paroles:

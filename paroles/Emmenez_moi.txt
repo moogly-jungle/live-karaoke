@@ -1,0 +1,3 @@
+titre: Emmenez-moi
+artist: Charles Aznavour
+paroles:

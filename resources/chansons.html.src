@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Liste des chansons</title>
+</head>
+<body>
+  <h1>Liste des chansons</h1>
+  <ul>
+    <!--LIST_OF_SONGS-->
+  </ul>
+  <a href="index.html">Retour à l'accueil</a>
+</body>
+</html>

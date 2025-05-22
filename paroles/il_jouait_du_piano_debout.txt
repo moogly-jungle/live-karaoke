@@ -1,0 +1,3 @@
+titre: Il jouait du piano debout
+artist: Michel Berger
+paroles:

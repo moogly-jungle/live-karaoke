@@ -1,0 +1,3 @@
+titre: Blowing the Wind
+artist: Bob Dylan
+paroles:

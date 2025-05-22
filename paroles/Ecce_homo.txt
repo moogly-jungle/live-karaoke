@@ -1,0 +1,3 @@
+titre: Ecce Homo
+artist: Serge Gainsbourg
+paroles:

@@ -1,0 +1,3 @@
+titre: Sweet Dreams
+artist: Eurithmics
+paroles:

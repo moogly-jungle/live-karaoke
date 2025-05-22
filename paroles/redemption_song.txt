@@ -1,0 +1,3 @@
+titre: Redemption Song
+artist: Bob Marley
+paroles:

@@ -1,0 +1,3 @@
+titre: Mon fils ma bataille
+artist: Daniel Balavoine
+paroles:

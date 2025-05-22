@@ -1,0 +1,3 @@
+titre: La Dame de Haute Savoie
+artist: Francis Cabrel
+paroles:
