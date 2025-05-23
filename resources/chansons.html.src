@@ -11,6 +11,15 @@
   <ul class="sans-puce" style="line-height: 1.25;">
     <!--LIST_OF_SONGS-->
   </ul>
+
+  <h2>TODO</h2>
+  
+  <ul class="sans-puce" style="line-height: 1.25;">
+    <!--LIST_OF_TODO-->
+  </ul>
+
   <a href="index.html">Retour à l'accueil</a>
+  <br>
+  <br>
 </body>
 </html>

@@ -43,32 +43,38 @@ class Song:
 
 # liste des chansons
 songs = []
-files = os.listdir('paroles')
-files.sort()
-for f in files:
-    songs.append(Song('paroles/' + f))
+todo = []
+dirs = [['paroles', songs], ['todo', todo]]
+for d, l in dirs:
+    files = os.listdir(d)
+    files.sort()
+    for f in files:
+        l.append(Song(d + '/' + f))
 
-print(f"{len(songs)} chansons au total")
+print(f"- {len(songs)} chansons")
+print(f"- {len(todo)} todo")
 
 # table des matières
+keys = [["<!--LIST_OF_SONGS-->", songs], ["<!--LIST_OF_TODO-->", todo]]
+
 os.system("rm -f chansons.html")
 with open("resources/chansons.html.src", "r") as src:
     with open("chansons.html", "w") as dest:
         for line in src:
-            if "<!--LIST_OF_SONGS-->" in line:
-                dest.write(line)
-                for n, song in enumerate(songs):
-                    if song.youtube is not None:
-                        youtube_link = f'- <a href="{song.youtube}">YouTube</a>'
-                    else: youtube_link = ''    
-                    dest.write(f'     <li>{n+1}. {song.html_link_line()} {youtube_link}</li>\n')
-            else:
-                dest.write(line)
+            for k, song_list in keys:
+                if k in line:
+                    dest.write(line)
+                    for n, song in enumerate(song_list):
+                        if song.youtube is not None:
+                            youtube_link = f'- <a href="{song.youtube}">YouTube</a>'
+                        else: youtube_link = ''    
+                        dest.write(f'     <li>{n+1}. {song.html_link_line()} {youtube_link}</li>\n')
+            dest.write(line)
 os.system('mv chansons.html docs/chansons.html')
 
 # Creation des fichiers de paroles
 os.system("rm -f docs/chansons/*.html")
-for s in songs:
+for s in songs + todo:
     html_file = 'docs/chansons/' + s.html_file_name()
     with open(html_file, "w") as dest:
         with open('resources/parole.html.src', "r") as src:
