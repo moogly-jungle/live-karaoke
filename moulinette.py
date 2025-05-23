@@ -45,8 +45,6 @@ files.sort()
 for f in files:
     songs.append(Song('paroles/' + f))
 
-for s in songs:
-    print(s)
 print(f"{len(songs)} chansons au total")
 
 # table des matières
