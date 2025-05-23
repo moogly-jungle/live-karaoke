@@ -4,7 +4,7 @@ import unicodedata
 import os
 import sys
 
-source = "playlist.txt"
+form_link = 'https://forms.gle/nma55N8XSGRkphcC8'
 
 def sans_accents(texte):
     return ''.join(
@@ -36,7 +36,7 @@ class Song:
         return self.base_file_name + ".html"
 
     def html_link_line(self):
-        return f'<li><a href="chansons/{self.html_file_name()}">{self.title}</a></li>'
+        return f'<a href="chansons/{self.html_file_name()}">{self.title}</a> - <i>{self.artist}</i>'
 
 # liste des chansons
 songs = []
@@ -54,8 +54,8 @@ with open("resources/chansons.html.src", "r") as src:
         for line in src:
             if "<!--LIST_OF_SONGS-->" in line:
                 dest.write(line)
-                for song in songs:
-                    dest.write(' '*4 + song.html_link_line() + '\n')
+                for n, song in enumerate(songs):
+                    dest.write(f'     <li>{n+1}. {song.html_link_line()}</li>\n')
             else:
                 dest.write(line)
 os.system('mv chansons.html docs/chansons.html')

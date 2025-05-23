@@ -1,13 +1,51 @@
+:root {
+    --couleur-texte: #FFFFFF;
+  }
+
 body {
-    font-size: 2.5vh;
-  }
-  h1 {
-    font-size: 3vh;
-  }
-  h2 {
-    font-size: 2.5vh;
-  }
-  pre {
+    color: var(--couleur-texte);
     font-size: 2.5vh;
     font-family: sans-serif;
+
+    background-image: url("resources/images/fond.png");     /* remplace par ton nom de fichier */
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+  }
+  h1 {
+    color: var(--couleur-texte);
+    font-size: 3vh;
+    font-family: sans-serif;
+  }
+  h2 {
+    color: var(--couleur-texte);
+    font-size: 2.5vh;
+    font-family: sans-serif;
+  }
+  pre {
+    color: var(--couleur-texte);
+    font-size: 2.5vh;
+    font-family: sans-serif;
+  }
+
+  a {
+    color: var(--couleur-texte); /* Couleur du lien normal */
+  }
+  
+  a:hover {
+    color: var(--couleur-texte); /* Couleur quand la souris passe dessus */
+  }
+  
+  a:visited {
+    color: var(--couleur-texte); /* Couleur après avoir été visité */
+  }
+  
+  a:active {
+    color: var(--couleur-texte); /* Couleur pendant le clic */
+  }
+
+  .sans-puce {
+    list-style: none;
   }
