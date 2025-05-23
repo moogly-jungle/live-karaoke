@@ -1,5 +1,6 @@
 titre: Diego libre dans sa tête
 artist: Michel Berger
+youtube: https://www.youtube.com/watch?v=5JHaH1GzAO8
 paroles:
 Derrière des barreaux
 Pour quelques mots qu'il pensait si fort

@@ -17,6 +17,7 @@ class Song:
         self.base_file_name = file.split('/')[-1].split('.')[0]
         self.title = None
         self.artist = None
+        self.youtube = None
         self.lyrics = ''
         lyrics = False
         with open(file, "r") as f:
@@ -27,6 +28,8 @@ class Song:
                     self.title = l.split(':')[1].strip()
                 elif l.startswith("artist:"):
                     self.artist = l.split(':')[1].strip()
+                elif l.startswith("youtube:"):
+                    self.youtube = l[8:].strip()
                 elif l.startswith("paroles:"):
                     lyrics = True
     def __repr__(self):
@@ -55,7 +58,10 @@ with open("resources/chansons.html.src", "r") as src:
             if "<!--LIST_OF_SONGS-->" in line:
                 dest.write(line)
                 for n, song in enumerate(songs):
-                    dest.write(f'     <li>{n+1}. {song.html_link_line()}</li>\n')
+                    if song.youtube is not None:
+                        youtube_link = f'- <a href="{song.youtube}">YouTube</a>'
+                    else: youtube_link = ''    
+                    dest.write(f'     <li>{n+1}. {song.html_link_line()} {youtube_link}</li>\n')
             else:
                 dest.write(line)
 os.system('mv chansons.html docs/chansons.html')
@@ -74,4 +80,7 @@ for s in songs:
                     lyr = s.lyrics.split('\n')
                     for l in lyr:
                             dest.write(' '*4 + l.strip() + '\n')
+                if  '<!--YOUTUBE_LINK-->' in line:
+                    if s.youtube is not None:
+                        dest.write('&nbsp;'*4 + f'<a href="{s.youtube}">[youtube]</a>\n')
                 

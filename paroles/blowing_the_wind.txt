@@ -1,5 +1,6 @@
 titre: Blowing the Wind
 artist: Bob Dylan
+youtube: https://www.youtube.com/watch?v=vWwgrjjIMXA
 paroles:
 How many roads must a man walk down
 Before you call him a man

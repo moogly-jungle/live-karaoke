@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <h1>TITLE</h1>
-  <h2>ARTIST</h2>
+  <h1>TITLE - ARTIST</h1>
+  <!--YOUTUBE_LINK-->
   <pre>
     <!--LYRICS-->
   </pre>
