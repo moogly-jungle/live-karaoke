@@ -57,7 +57,7 @@ print(f"- {len(todo)} todo")
 # table des matières
 keys = [["<!--LIST_OF_SONGS-->", songs], ["<!--LIST_OF_TODO-->", todo]]
 
-os.system("rm -f chansons.html")
+os.system("rm -f docs/chansons.html")
 with open("resources/chansons.html.src", "r") as src:
     with open("chansons.html", "w") as dest:
         for line in src:
