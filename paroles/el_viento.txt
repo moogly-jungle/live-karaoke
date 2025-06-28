@@ -1,5 +1,7 @@
 titre: El Viento
 artist: Manu Chao
+youtube: https://www.youtube.com/watch?v=tQ2nl0_boh4
+partition: el_viento.png
 paroles:
 El viento viene, el viento se va
 Por la frontera

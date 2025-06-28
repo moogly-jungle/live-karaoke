@@ -1,6 +1,7 @@
 titre: Dommage
 artist: Bigflo et Oly
 youtube: https://www.youtube.com/watch?v=8AF-Sm8d8yk
+partition: dommage.png
 paroles:
 Louis prend son bus, comme tous les matins
 Il croisait cette même fille avec son doux parfum
