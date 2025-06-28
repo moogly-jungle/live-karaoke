@@ -1,5 +1,6 @@
 titre: Dirty Old Town
 artist: Pogues, Ewan MacColl
+partition: dirty_old_town.png
 paroles:
 I met my love by the gasworks wall
 Dreamed a dream by the old canal
