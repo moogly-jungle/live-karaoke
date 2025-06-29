@@ -1,5 +1,7 @@
 titre: Jardin d'Hivers
 artist: Henri Salvador, Benjamin Biolay
+youtube: https://www.youtube.com/watch?v=gFkUVik35U8
+partition: jardin_d_hivers.png
 paroles:
 Je voudrais du soleil vert
 Des dentelles et des théières

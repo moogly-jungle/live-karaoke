@@ -1,5 +1,7 @@
 titre: Jolene
 artist: Dolly Parton
+youtube: https://www.youtube.com/watch?v=Ixrje2rXLMA
+partition: jolene.png
 paroles:
 Jolene, Jolene, Jolene, Jolene
 I'm begging of you please don't take my man

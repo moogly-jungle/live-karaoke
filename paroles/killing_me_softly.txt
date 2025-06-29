@@ -1,5 +1,7 @@
 titre: Killing Me Softly
 artist: Fugees
+youtube: https://www.youtube.com/watch?v=oKOtzIo-uYw
+partition: killing_me_softly.png
 paroles:
 Strumming my pain with his fingers (one time) yeah, yeah
 Singing my life with his words (two times)

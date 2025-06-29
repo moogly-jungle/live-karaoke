@@ -1,5 +1,7 @@
 titre: Il jouait du piano debout
 artist: Michel Berger, France Gall
+youtube: https://www.youtube.com/watch?v=7l7eXx_8DHY
+partition: il_jouait_du_piano.png
 paroles:
 Ne dites pas que ce garçon était fou
 Il ne vivait pas comme les autres, c'est tout

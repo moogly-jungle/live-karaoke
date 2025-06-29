@@ -1,5 +1,7 @@
 titre: La Bonne Etoile
 artist: M
+youtube: https://www.youtube.com/watch?v=wWKk2O4E6Xc
+partition: la_bonne_etoile.png
 paroles:
 Terrien
 Juste une poussière
