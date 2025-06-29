@@ -1,5 +1,7 @@
 titre: La Dame de Haute Savoie
 artist: Francis Cabrel
+youtube: https://www.youtube.com/watch?v=HdcL3XKIgQE
+partition: la_dame_de_haute_savoir.png
 paroles:
 Quand je serai fatigué de sourire à ces gens qui m'écrasent
 Quand je serai fatigué de leur dire toujours les mêmes phrases
