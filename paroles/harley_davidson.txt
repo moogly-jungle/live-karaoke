@@ -1,5 +1,7 @@
 titre: Harley Davidson
 artist: Serge Gainsbourg
+youtube: https://www.youtube.com/watch?v=AqZxMjGhhyw
+partition: harley_davidson.png
 paroles:
 Je n'ai besoin de personne
 En Harley Davidson
