@@ -1,5 +1,7 @@
 titre: Sympathique
 artist: Pink Martini
+youtube: https://www.youtube.com/watch?v=ANVQScgIeag
+partition: sympathique.png
 paroles:
 Ma chambre a la forme d'une cage
 Le soleil passe son bras par la fenêtre

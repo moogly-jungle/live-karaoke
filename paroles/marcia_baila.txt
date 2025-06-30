@@ -1,5 +1,7 @@
 titre: Marcia Baila
 artist: Rita Mitsouko
+youtube: https://www.youtube.com/watch?v=1zWlnzFXcKY
+partition: marcia_baila.png
 paroles:
 Marcia, elle danse sur du satin, de la rayonne
 Du polystyrène expansé à ses pieds

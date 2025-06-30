@@ -1,5 +1,7 @@
 titre: Le Sud
 artist: Nino Ferrer
+youtube: https://www.youtube.com/watch?v=FgxwKEuy-pM
+partition: le_sud.png
 paroles:
 C'est un endroit
 Qui ressemble à la Louisiane

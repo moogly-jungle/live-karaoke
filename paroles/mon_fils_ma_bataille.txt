@@ -1,5 +1,7 @@
 titre: Mon fils ma bataille
 artist: Daniel Balavoine
+youtube: https://www.youtube.com/watch?v=U6HI__YOhe4
+partition: mon_fils_ma_bataille.png
 paroles:
 Ça fait longtemps que t'es partie
 Maintenant
