@@ -1,5 +1,7 @@
 titre: Marlène
 artist: Noir Désir
+youtube: https://www.youtube.com/watch?v=rLIUoex9Hyg
+partition: marlene.png
 paroles:
 Oh, Marlène
 Les cœurs saignent

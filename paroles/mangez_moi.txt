@@ -1,5 +1,7 @@
 titre: Mangez-moi mangez-moi
 artist: Billy ze Kick
+youtube: https://www.youtube.com/watch?v=taOsuVhXqzY
+partition: mangez_moi.png
 paroles:
 Un après-midi d'automne
 On avait trouvé un moyen de locomotion

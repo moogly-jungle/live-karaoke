@@ -1,5 +1,7 @@
 titre: Sarbacanne
 artist: Francis Cabrel
+youtube: https://www.youtube.com/watch?v=qlGoCN9EqWI
+partition: sarbacane.png
 paroles:
 On croyait savoir tout sur l'amour depuis toujours
 Nos corps par cœur et nos cœurs au chaud dans le velours

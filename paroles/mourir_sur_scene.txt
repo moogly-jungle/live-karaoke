@@ -1,5 +1,7 @@
 titre: Mourir sur Scène
 artist: Dalida
+youtube: https://www.youtube.com/watch?v=X16fYEugii4
+partition: mourir_sur_scene.png
 paroles:
 Viens, mais ne viens pas quand je serai seule
 Quand le rideau un jour tombera

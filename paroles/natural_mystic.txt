@@ -1,5 +1,7 @@
 titre: Natural Mystic
 artist: Bob Marley
+youtube: https://www.youtube.com/watch?v=UZfaIx57UqU
+partition: natural_mystic.png
 paroles:
 There's a natural mystic
 Blowing through the air

@@ -1,6 +1,7 @@
 titre:Pas de Boogie Woogie
 artist: Eddy Mitchell
-
+youtube: https://www.youtube.com/watch?v=EEbOMyB2YJQ
+partition: pas_de_boogie_woogie.png
 paroles:
 Le pape a dit que l'acte d'amour
 Sans être marié, est un péché

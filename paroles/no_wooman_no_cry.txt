@@ -1,5 +1,7 @@
 titre: No Wooman No Cry
 artist: Bob Marley
+youtube: https://www.youtube.com/watch?v=mZ6VezKMoRY
+partition: no_wooman_no_cry.png
 paroles:
 No, woman, no cry
 No, woman, no cry
