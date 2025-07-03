@@ -1,5 +1,7 @@
 titre: Let it be
 artist: Beatles
+youtube: https://www.youtube.com/watch?v=CGj85pVzRJs
+partition: let_it_be.png
 paroles:
 When I find myself in times of trouble, Mother Mary comes to me
 Speaking words of wisdom, let it be

@@ -1,5 +1,7 @@
 titre: La Javanaise
 artist: Serge Gainsbourg
+youtube: https://www.youtube.com/watch?v=51pK2k_Sa4o
+partition: la_javanaise.png
 paroles:
 J'avoue j'en ai bavé pas vous
 Mon amour

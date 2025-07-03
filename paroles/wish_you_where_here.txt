@@ -1,5 +1,7 @@
 titre: Wish You where Here
 artist: Pink Floyd
+youtube: https://www.youtube.com/watch?v=3j8mr-gcgoI
+partition: wish_you_where_here.png
 paroles:
 So, so you think you can tell
 Heaven from hell?

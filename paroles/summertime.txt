@@ -1,5 +1,6 @@
 titre: Summertime
 artist: George Gershwin
+youtube: https://www.youtube.com/watch?v=u2bigf337aU
 paroles:
 Summertime,
 And the livin' is easy

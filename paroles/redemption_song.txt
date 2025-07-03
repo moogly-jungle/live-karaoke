@@ -1,5 +1,7 @@
 titre: Redemption Song
 artist: Bob Marley
+youtube: https://www.youtube.com/watch?v=kOFu6b3w6c0
+partition: redemption_song.png
 paroles:
 Old pirates, yes, they rob I
 Sold I to the merchant ships

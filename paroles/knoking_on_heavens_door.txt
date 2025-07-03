@@ -1,5 +1,7 @@
 titre: Knockin' on Heavens Door
 artist: Bob Dylan
+youtube: https://www.youtube.com/watch?v=rm9coqlk8fY
+partition: knocking_on_heavens_door.png
 paroles:
 Mama take this badge from me
 I can't use it anymore

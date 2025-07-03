@@ -1,5 +1,7 @@
 titre: Couleur Menthe à l'eau
 artist: Eddy Mitchell
+youtube: https://www.youtube.com/watch?v=iVABEFYi1wo
+partition: couleur_menthe_a_l_eau.png
 paroles:
 Elle était maquillée
 Comme une star de ciné

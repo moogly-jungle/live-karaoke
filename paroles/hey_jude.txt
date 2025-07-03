@@ -1,5 +1,6 @@
 titre: Hey Jude
 artist: Beatles
+partition: hey_jude.png
 paroles:
 Hey Jude, don't make it bad
 Take a sad song and make it better

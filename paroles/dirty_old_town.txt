@@ -1,5 +1,6 @@
 titre: Dirty Old Town
 artist: Pogues, Ewan MacColl
+youtube: https://www.youtube.com/watch?v=TWVEJNBlfxo
 partition: dirty_old_town.png
 paroles:
 I met my love by the gasworks wall

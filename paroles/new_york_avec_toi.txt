@@ -1,5 +1,7 @@
 titre: New York avec toi
 artist: Téléphone
+youtube: https://www.youtube.com/watch?v=aWROzt7kudk
+partition: new_york_avec_toi.png
 paroles:
 Un jour, j'irai à New York avec toi
 Toutes les nuits déconner
