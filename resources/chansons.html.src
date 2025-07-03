@@ -6,17 +6,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Karaoke Live !</h1>
+  <h1>Karacoll</h1>
+  Le collectif Karaoké :) <br><br>
   Si vous ne trouvez pas votre bonheur ici, n'hésitez pas à nous suggérer une chanson que vous voudriez chanter ! Pour ce faire, rendez-vous <a href="https://forms.gle/nma55N8XSGRkphcC8">ici</a>
   <ul class="sans-puce" style="line-height: 1.25;">
     <!--LIST_OF_SONGS-->
   </ul>
 
-  <h2>TODO</h2>  
+  <!--
+  <h2>TODO</h2>
+  -->  
   <ul class="sans-puce" style="line-height: 1.25;">
     <!--LIST_OF_TODO-->
   </ul>
-
+  
   <a href="index.html">Retour à l'accueil</a>
   <br>
   <br>

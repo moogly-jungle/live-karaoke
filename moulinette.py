@@ -58,7 +58,8 @@ print(f"- {len(songs)} chansons")
 print(f"- {len(todo)} todo")
 
 # table des matières
-keys = [["<!--LIST_OF_SONGS-->", songs], ["<!--LIST_OF_TODO-->", todo]]
+# keys = [["<!--LIST_OF_SONGS-->", songs], ["<!--LIST_OF_TODO-->", todo]]
+keys = [["<!--LIST_OF_SONGS-->", songs] ]
 
 os.system("rm -f docs/chansons.html")
 with open("resources/chansons.html.src", "r") as src:
