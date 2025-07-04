@@ -1,4 +1,4 @@
-titre: Jardin d'Hivers
+titre: Jardin d'Hiver
 artist: Henri Salvador, Benjamin Biolay
 youtube: https://www.youtube.com/watch?v=gFkUVik35U8
 partition: jardin_d_hivers.png
