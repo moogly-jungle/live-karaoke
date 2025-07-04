@@ -1,5 +1,6 @@
 titre: Hey Jude
 artist: Beatles
+youtube: https://www.youtube.com/watch?v=mQER0A0ej0M
 partition: hey_jude.png
 paroles:
 Hey Jude, don't make it bad
