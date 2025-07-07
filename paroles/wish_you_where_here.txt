@@ -1,4 +1,4 @@
-titre: Wish You where Here
+titre: Wish you were here
 artist: Pink Floyd
 youtube: https://www.youtube.com/watch?v=3j8mr-gcgoI
 partition: wish_you_where_here.png
