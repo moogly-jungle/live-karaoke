@@ -1,5 +1,7 @@
 titre: Comme d'habitude
 artist: Claude François
+youtube: https://www.youtube.com/watch?v=kJl2ICLpj00
+partition: comme_d_habitude
 paroles:
 Je me lève
 Et je te bouscule
