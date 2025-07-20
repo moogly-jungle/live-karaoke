@@ -42,7 +42,7 @@ class Song:
         return self.base_file_name + ".html"
 
     def html_link_line(self):
-        return f'<a href="chansons/{self.html_file_name()}">{self.title}</a> - <i>{self.artist}</i>'
+        return f'<a href="chansons/{self.html_file_name()}"><strong>{self.title}</strong></a> - <i>{self.artist}</i>'
 
 # liste des chansons
 songs = []
