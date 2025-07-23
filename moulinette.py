@@ -19,6 +19,7 @@ class Song:
         self.artist = None
         self.youtube = None
         self.partition = None
+        self.tabs = None
         self.lyrics = ''
         lyrics = False
         with open(file, "r") as f:
@@ -33,6 +34,8 @@ class Song:
                     self.youtube = l[8:].strip()
                 elif l.startswith("partition:"):
                     self.partition = 'partitions/'+l[10:].strip()
+                elif l.startswith("tabs:"):
+                    self.tabs = l[5:].strip()
                 elif l.startswith("paroles:"):
                     lyrics = True
     def __repr__(self):
@@ -71,10 +74,14 @@ with open("resources/chansons.html.src", "r") as src:
                     for n, song in enumerate(song_list):
                         if song.youtube is not None:
                             youtube_link = f'- <a href="{song.youtube}">YouTube</a>'
+                        else: youtube_link = ''
                         if song.partition is not None:
                             partition_link = f'- <a href="{song.partition}">Partition</a>'
                         else: partition_link = ''    
-                        dest.write(f'     <li>{n+1}. {song.html_link_line()} {youtube_link} {partition_link}</li>\n')
+                        if song.tabs is not None:
+                            tabs_link = f'- <a href="{song.tabs}">Tabs</a>'
+                        else: tabs_link = ''
+                        dest.write(f'     <li>{n+1}. {song.html_link_line()} {youtube_link} {partition_link} {tabs_link}</li>\n')
             dest.write(line)
 os.system('mv chansons.html docs/chansons.html')
 
