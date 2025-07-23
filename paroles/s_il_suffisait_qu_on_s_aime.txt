@@ -1,4 +1,4 @@
-titre: S'il suffisait qu'on s'aime
+titre: S'il suffisait d'aimer
 artist: Céline Dion
 youtube: https://www.youtube.com/watch?v=2vmHANYQcVw
 partition: s_il_suffisait_d_aimer.png
