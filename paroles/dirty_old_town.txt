@@ -2,6 +2,7 @@ titre: Dirty old town
 artist: Pogues, Ewan MacColl
 youtube: https://www.youtube.com/watch?v=TWVEJNBlfxo
 partition: dirty_old_town.png
+tabs: https://tabs.ultimate-guitar.com/tab/the-pogues/dirty-old-town-chords-80132
 paroles:
 I met my love by the gasworks wall
 Dreamed a dream by the old canal
