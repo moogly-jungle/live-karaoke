@@ -84,7 +84,7 @@ with open("resources/chansons.html.src", "r") as src:
                         dest.write(f'     <li>{n+1}. {song.html_link_line()} {youtube_link} {partition_link} {tabs_link}</li>\n')
             dest.write(line)
 os.system('mv chansons.html docs/chansons.html')
-
+os.system('cp resources/logo-karacoll.jpeg docs/resources/logo-karacoll.jpeg')
 # Creation des fichiers de paroles
 os.system("rm -f docs/chansons/*.html")
 for s in songs + todo:
