@@ -1,54 +1,163 @@
-:root {
-    --couleur-texte: #FFFFFF;
-  }
+/* ===== Feuille de style Karacoll ===== */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
-    color: var(--couleur-texte);
-    font-size: 2.5vh;
-    font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fff7f0, #ffe9d6);
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px; /* base lisible pour tout écran */
+}
 
-    background-image: url("resources/images/fond.png");     /* remplace par ton nom de fichier */
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    margin: 0;
-    height: 100vh;
+/* ===== Header avec logo ===== */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
 
-    margin-left: 5%; 
-    margin-right: 5%;
-  }
-  h1 {
-    color: var(--couleur-texte);
-    font-size: 3vh;
-    font-family: sans-serif;
-  }
-  h2 {
-    color: var(--couleur-texte);
-    font-size: 2.5vh;
-    font-family: sans-serif;
-  }
-  pre {
-    color: var(--couleur-texte);
-    font-size: 2.5vh;
-    font-family: sans-serif;
+header img {
+  max-width: 160px;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+  color: #cc4400;
+}
+
+header p {
+  margin: 8px 0 0;
+  font-size: 1.1em;
+  color: #555;
+  font-style: italic;
+}
+
+/* ===== Contenu principal ===== */
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Intro centrée */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+
+/* ===== Barre de recherche moderne ===== */
+.search-container {
+  position: relative;
+  text-align: center;
+  margin: 25px 0 40px;
+}
+
+.search-box {
+  padding: 14px 50px 14px 20px; /* espace pour le texte + icone */
+  width: 70%;
+  max-width: 500px;
+  font-size: 1em;
+  border-radius: 35px;
+  border: 2px solid #cc4400;
+  outline: none;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.search-box:focus {
+  border-color: #ff6600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.search-icon {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  pointer-events: none; /* clique passe à l'input */
+}
+
+/* ===== Liste des chansons ===== */
+.song-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.song-list li {
+  background: white;
+  margin: 12px 0;
+  padding: 18px 22px;
+  border-radius: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.song-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  background: #fffaf5;
+}
+
+.song-list li strong {
+  color: #cc4400;
+}
+
+.song-list li i {
+  color: #666;
+}
+
+/* ===== Lien retour accueil ===== */
+.back-home {
+  display: inline-block;
+  margin: 50px auto;
+  padding: 12px 25px;
+  font-weight: 600;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: white;
+  background: #cc4400;
+  border-radius: 30px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  background: #ff6600;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 0.9em;
+  color: #555;
+  background: #fff;
+  margin-top: 50px;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.08);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .search-box {
+    width: 90%;
+    padding: 12px 45px 12px 15px;
   }
 
-  a {
-    color: var(--couleur-texte); /* Couleur du lien normal */
-  }
-  
-  a:hover {
-    color: var(--couleur-texte); /* Couleur quand la souris passe dessus */
-  }
-  
-  a:visited {
-    color: var(--couleur-texte); /* Couleur après avoir été visité */
-  }
-  
-  a:active {
-    color: var(--couleur-texte); /* Couleur pendant le clic */
+  header h1 {
+    font-size: 2.2em;
   }
 
-  .sans-puce {
-    list-style: none;
+  .intro {
+    font-size: 1.1em;
   }
+}

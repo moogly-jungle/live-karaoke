@@ -85,6 +85,8 @@ with open("resources/chansons.html.src", "r") as src:
             dest.write(line)
 os.system('mv chansons.html docs/chansons.html')
 os.system('cp resources/logo-karacoll.jpeg docs/resources/logo-karacoll.jpeg')
+os.system('cp resources/instagram-logo.jpeg docs/resources/instagram-logo.jpeg')
+
 # Creation des fichiers de paroles
 os.system("rm -f docs/chansons/*.html")
 for s in songs + todo:

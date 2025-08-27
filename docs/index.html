@@ -2,15 +2,54 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Bienvenue</title>
+  <title>Bienvenue - KaraColl</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      margin-top: 10px;
+      font-size: 1rem;
+      text-decoration: none;
+      color: #000;
+    }
+    .social-link img {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+    .social-link:hover {
+      color: #E1306C; /* couleur Instagram rose */
+    }
+  </style>
 </head>
-<body  style="text-align: center;">
-  <h1 style="font-size: 5vh">Karaoke Live!</h1>
-  <p><i>Rendez-vous le 11 juillet au Chope et Companie Bordeaux</i></p>
-  <p>Venez nombreux !</p>
-  <a href="chansons.html">Chansons</a>
-  <br><br>
-  N'hésitez pas à nous suggérer une chanson que vous voudriez chanter ! Pour ce faire, rendez-vous <a href="https://forms.gle/nma55N8XSGRkphcC8">ici</a>  
+<body>
+  <header>
+    <img src="resources/logo-karacoll.jpg" alt="logo KaraColl">
+    <h1>Karaoke Live</h1>
+    <p>🎉 Rendez-vous le 11 juillet au <a href="https://www.google.com/maps?rlz=1C1CHBF_frFR974FR974&gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYgAQYjgUyCggAEAAY4wIYgAQyEAgBEC4YrwEYxwEYgAQYjgUyBwgCEAAYgAQyCAgDEAAYFhgeMggIBBAAGBYYHjIKCAUQABiABBiiBDIKCAYQABiABBiiBDIKCAcQABiABBiiBDIHCAgQABjvBdIBCDQ4ODRqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=fr&sa=X&geocode=KWlMo3pVJVUNMRfvkshbevBP&daddr=25+Av.+de+l%27%C3%8Ele+de+France,+33370+Artigues-pr%C3%A8s-Bordeaux" target="_blank">Chope et Compagnie Bordeaux</a></p>
+    <p>🗺️📍 Retrouvez-nous tous les jeudis de l'été à <a href="https://www.google.com/maps?rlz=1C1CHBF_frFR974FR974&gs_lcrp=EgZjaHJvbWUqDwgAEAAYQxjjAhiABBiKBTIPCAAQABhDGOMCGIAEGIoFMhUIARAuGEMYrwEYxwEYgAQYigUYjgUyDQgCEC4YrwEYxwEYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxODIyajBqNKgCALACAQ&um=1&ie=UTF-8&fb=1&gl=fr&sa=X&geocode=KZvRqaUqJlUNMRmTc2t4ruaP&daddr=75+Quai+des+Queyries,+33100+Bordeaux" target="_blank">La Belle Saison, à Bordeaux</a>.</p>
+
+    <!-- Instagram -->
+    <a class="social-link" href="https://www.instagram.com/p/DMPsd8dofvj/" target="_blank">
+      <img src="resources/instagram-logo.jpeg" alt="logo Instagram">
+      Suivez-nous sur Instagram
+    </a>
+  </header>
+
+  <main>
+    <div class="intro">
+      <p>Venez nombreux pour chanter, partager et profiter d'une ambiance festive et conviviale !</p>
+      <p>N'hésitez pas à nous suggérer une chanson que vous voudriez chanter ! Pour ce faire, rendez-vous <a href="https://forms.gle/nma55N8XSGRkphcC8">ici</a>.</p>
+    </div>
+
+    <div style="text-align: center; margin: 20px 0;">
+      <a class="back-home" href="chansons.html">🎤 Voir la liste des chansons</a>
+    </div>
+  </main>
+
+  <footer>
+    KaraColl © 2025 - Le collectif Karaoké 🎶
+  </footer>
 </body>
 </html>
