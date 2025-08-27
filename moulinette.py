@@ -83,6 +83,7 @@ with open("resources/chansons.html.src", "r") as src:
                         else: tabs_link = ''
                         dest.write(f'     <li>{n+1}. {song.html_link_line()} {youtube_link} {partition_link} {tabs_link}</li>\n')
             dest.write(line)
+
 os.system('mv chansons.html docs/chansons.html')
 os.system('cp resources/logo-karacoll.jpeg docs/resources/logo-karacoll.jpeg')
 os.system('cp resources/instagram-logo.jpeg docs/resources/instagram-logo.jpeg')
