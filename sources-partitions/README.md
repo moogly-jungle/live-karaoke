@@ -8,5 +8,6 @@ fabriquer les `png` et les placer dans le répertoire des images
 de partitions.
 
 Usage (sous Linux) :
+~~~bash
         ./convertir.sh fichier1 fichier2....
-		
+~~~	
