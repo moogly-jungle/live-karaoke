@@ -1,9 +1,14 @@
-#
+#!/bin/bash
 
 # Convertit des documents en png
-# et les mets dans le répertoire des partitions
-
-# Usage :   ./convertir.sh   truc.odt machin.odt
+# et les met dans le répertoire des partitions
 
 PARTITIONS=../docs/partitions
-libreoffice --convert-to png --outdir ${PARTITIONS} $*
+
+# Usage :   ./convertir.sh  f1 f2 ...
+
+if [ $# == 0 ] ; then
+	echo "Usage :   $0  f1 f2 ..." >&1
+else
+	libreoffice --convert-to png --outdir ${PARTITIONS} "$@"
+fi
