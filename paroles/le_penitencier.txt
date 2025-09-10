@@ -1,6 +1,6 @@
 titre: Le Pénitencier
 artist: Johnny Hallyday
-youtube: https://youtu.be/Rd0n3ZL6MeA?si=4NM5Gc0pa-M
+youtube: https://youtu.be/4NM5Gc0pa-M
 partition: le_penitencier.png
 paroles:
 Les portes du pénitencier
