@@ -28,7 +28,7 @@ class Song:
                     self.lyrics += l.strip() + '\n'
                 if l.startswith("titre:"):
                     self.title = l.split(':')[1].strip()
-                elif l.startswith("artist:"):
+                elif l.startswith("artist:") or l.startswith("artiste:"):
                     self.artist = l.split(':')[1].strip()
                 elif l.startswith("youtube:"):
                     self.youtube = l[8:].strip()
