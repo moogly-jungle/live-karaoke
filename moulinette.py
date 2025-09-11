@@ -55,8 +55,10 @@ for d, l in dirs:
     files = os.listdir(d)
     files.sort()
     for f in files:
-        l.append(Song(d + '/' + f))
-
+        if f.endswith('.txt'):
+            l.append(Song(d + '/' + f))
+        else:
+            print(f"Fichier ignoré: {d+'/'+f}", file=sys.stderr)
 print(f"- {len(songs)} chansons")
 print(f"- {len(todo)} todo")
 
