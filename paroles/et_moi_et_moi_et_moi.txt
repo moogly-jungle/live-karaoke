@@ -1,5 +1,6 @@
 titre: Et moi, et moi, et moi
-artist: Jacques Dutronc
+artiste: Jacques Dutronc
+partition: et_moi_et_moi_et_moi.png
 paroles:
 Sept cent millions de chinois
 Et moi, et moi, et moi
