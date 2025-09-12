@@ -11,3 +11,7 @@ Usage (sous Linux) :
 ~~~bash
         ./convertir.sh fichier1 fichier2....
 ~~~	
+
+# Crédits
+
+- La vie En Rose :  http://groupe.jazz.free.fr/pdf/La-vie-en-rose.pdf
