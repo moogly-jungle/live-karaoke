@@ -1,5 +1,6 @@
 titre: Et moi, et moi, et moi
 artiste: Jacques Dutronc
+youtube: https://youtu.be/mTj8rizW9Bg     
 partition: et_moi_et_moi_et_moi.png
 paroles:
 Sept cent millions de chinois
