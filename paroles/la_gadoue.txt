@@ -7,8 +7,11 @@ Du mois de Septembre au mois d'août
 Faudrait des bottes de caoutchouc
 Pour patauger dans la gadoue
 <<<<<<< HEAD
+<<<<<<< HEAD
 La gadoue, la gadoue, la gadoue
 Ouh, la gadoue, la gadoue
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 
@@ -16,8 +19,11 @@ Une à une les gouttes d'eau
 Me dégoulinent dans le dos
 Nous pataugeons dans la gadoue
 <<<<<<< HEAD
+<<<<<<< HEAD
 La gadoue, la gadoue, la gadoue
 Ouh, la gadoue, la gadoue
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 
@@ -30,8 +36,11 @@ Et rentrons à Paris
 Nous garderons nos parapluies
 Et nous retrouverons la gadoue
 <<<<<<< HEAD
+<<<<<<< HEAD
 La gadoue, la gadoue, la gadoue
 Ouh, la gadoue, la gadoue
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 
@@ -39,8 +48,11 @@ Il fait un temps abominables
 Heureusement tu as ton imperméable
 Et ça n'empêche pas la gadoue
 <<<<<<< HEAD
+<<<<<<< HEAD
 La gadoue, la gadoue, la gadoue
 Ouh, la gadoue, la gadoue
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 
@@ -57,8 +69,12 @@ L'année prochaine nous irons
 Dans un pays où il fait bon
 Et nous oublierons la gadoue
 <<<<<<< HEAD
+<<<<<<< HEAD
 La gadoue, la gadoue, la gadoue
 ...
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
