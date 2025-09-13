@@ -1,5 +1,6 @@
 titre: La vie en rose
 artist: Edith Piaf
+partition: la_vie_en_rose.png
 paroles:
 Des yeux qui font baisser les miens
 Un rire qui se perd sur sa bouche
