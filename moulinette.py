@@ -12,6 +12,14 @@ def sans_accents(texte):
         if unicodedata.category(c) != 'Mn'
     )
 
+
+# pour ordonner les noms de fichiers en ignorant
+# les blancs_soulignés etc
+# sinon, "la_voix_des_sages.txt" se retrouve avant "le_chanteur.txt"
+
+def letters_only(string):
+    return ''.join(c for c in string if c.isalnum())
+
 class Song:
     def __init__(self, file):
         self.base_file_name = file.split('/')[-1].split('.')[0]
@@ -53,7 +61,7 @@ todo = []
 dirs = [['paroles', songs], ['todo', todo]]
 for d, l in dirs:
     files = os.listdir(d)
-    files.sort()
+    files.sort(key=letters_only)  # modif
     for f in files:
         if f.endswith('.txt'):
             l.append(Song(d + '/' + f))
