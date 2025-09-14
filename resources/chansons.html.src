@@ -153,24 +153,27 @@
   <!--
   <h2>TODO</h2>
   -->  
-  <ul class="sans-puce" style="line-height: 1.6;">
+  <ul class="sans-puce song-list" style="line-height: 1.6;">
     <!--LIST_OF_TODO-->
   </ul>
   
-  <a href="index.html" style="display:block; text-align:center; margin:30px;">Retour à l'accueil</a>
+  <a href="index.html"
+	 style="display:block; text-align:center; margin:30px;
+			">Retour à l'accueil</a>
 
   <script>
-  function filterSongs() {
-    const q = document.getElementById('search').value.toLowerCase().trim();
-    const items = document.querySelectorAll('.song-list li');
-    if (!q) {
-      items.forEach(li => li.style.display = '');
-      return;
+	const items = document.querySelectorAll('.song-list li');
+
+	function filterSongs() {
+      const q = document.getElementById('search').value.toLowerCase().trim();
+      if (!q) {
+        items.forEach(li => li.style.display = '');
+        return;
+      }
+      items.forEach(li => {
+       li.style.display = li.innerText.toLowerCase().includes(q) ? '' : 'none';
+      });
     }
-    items.forEach(li => {
-      li.style.display = li.innerText.toLowerCase().includes(q) ? '' : 'none';
-    });
-  }
   </script>
 </body>
 </html>
