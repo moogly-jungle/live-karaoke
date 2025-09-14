@@ -3,6 +3,7 @@ import copy
 import unicodedata
 import os
 import sys
+import csv
 
 form_link = 'https://forms.gle/nma55N8XSGRkphcC8'
 
@@ -69,7 +70,7 @@ todo = []
 dirs = [['paroles', songs], ['todo', todo]]
 for d, l in dirs:
     files = os.listdir(d)
-    files.sort(key=without_underscores)  # modif
+    files.sort()  #  on abandonne  key=without_underscores
     for f in files:
         if f.endswith('.txt'):
             l.append(Song(d + '/' + f))
@@ -123,4 +124,18 @@ for s in songs + todo:
                 if  '<!--YOUTUBE_LINK-->' in line:
                     if s.youtube is not None:
                         dest.write('&nbsp;'*4 + f'<a href="{s.youtube}">[youtube]</a>\n')
-                
+
+# Création du fichier txt pour production de la liste papier
+# format:
+# - une ligne par chanson,
+# - 2 champs titre et artiste entre guillemets,
+# - guillemets internes doublés
+
+os.system("rm -f docs/chansons.txt")
+with open("docs/chansons.txt", "w") as txt_file:
+    for k, song_list in keys:
+        for n, song in enumerate(song_list):
+            txt_file.write(f'{song.title} - {song.artist}\n')
+
+
+
