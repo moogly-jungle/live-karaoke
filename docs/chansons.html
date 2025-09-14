@@ -151,7 +151,7 @@
      <li>1. <a href="chansons/aint_no_sunshine.html"><strong>Ain't no sunshine</strong></a> - <i>Bill Withers</i> - <a href="https://www.youtube.com/watch?v=YuKfiH0Scao">YouTube</a> - <a href="partitions/aint_no_sunshine.png">Partition</a> - <a href="https://tabs.ultimate-guitar.com/tab/bill-withers/aint-no-sunshine-chords-468744">Tabs</a></li>
      <li>2. <a href="chansons/aline.html"><strong>Aline</strong></a> - <i>Christophe</i> - <a href="https://youtu.be/8wBljj6JQgY">YouTube</a> - <a href="partitions/aline.png">Partition</a> </li>
      <li>3. <a href="chansons/amsterdam.html"><strong>Amsterdam</strong></a> - <i>Jacques Brel</i> - <a href="https://www.youtube.com/watch?v=V3BSj1cHX-M">YouTube</a> - <a href="partitions/amsterdam.png">Partition</a> </li>
-     <li>4. <a href="chansons/bella_ciao.html"><strong>Bella Ciao</strong></a> - <i></i> - <a href="https://www.youtube.com/watch?v=0aUav1lx3rA">YouTube</a> - <a href="partitions/bella_ciao.png">Partition</a> </li>
+     <li>4. <a href="chansons/bella_ciao.html"><strong>Bella Ciao</strong></a> - <i>Yves Montant</i> - <a href="https://www.youtube.com/watch?v=0aUav1lx3rA">YouTube</a> - <a href="partitions/bella_ciao.png">Partition</a> </li>
      <li>5. <a href="chansons/blowing_the_wind.html"><strong>Blowin' the wind</strong></a> - <i>Bob Dylan</i> - <a href="https://www.youtube.com/watch?v=vWwgrjjIMXA">YouTube</a> - <a href="partitions/blowing_the_wind.png">Partition</a> </li>
      <li>6. <a href="chansons/c_est_la_ouate.html"><strong>C'est la Ouate</strong></a> - <i>Caroline Loeb</i> - <a href="https://www.youtube.com/watch?v=wSGBwlLSJO8">YouTube</a> - <a href="partitions/c_est_la_ouate.png">Partition</a> </li>
      <li>7. <a href="chansons/champs_elysees.html"><strong>Champs Elysées</strong></a> - <i>Joe Dassin</i> - <a href="https://www.youtube.com/watch?v=tDWeLlvYyYU">YouTube</a> - <a href="partitions/champs_elysees.png">Partition</a> </li>
@@ -263,24 +263,27 @@
   <!--
   <h2>TODO</h2>
   -->  
-  <ul class="sans-puce" style="line-height: 1.6;">
+  <ul class="sans-puce song-list" style="line-height: 1.6;">
     <!--LIST_OF_TODO-->
   </ul>
   
-  <a href="index.html" style="display:block; text-align:center; margin:30px;">Retour à l'accueil</a>
+  <a href="index.html"
+	 style="display:block; text-align:center; margin:30px;
+			">Retour à l'accueil</a>
 
   <script>
-  function filterSongs() {
-    const q = document.getElementById('search').value.toLowerCase().trim();
-    const items = document.querySelectorAll('.song-list li');
-    if (!q) {
-      items.forEach(li => li.style.display = '');
-      return;
+	const items = document.querySelectorAll('.song-list li');
+
+	function filterSongs() {
+      const q = document.getElementById('search').value.toLowerCase().trim();
+      if (!q) {
+        items.forEach(li => li.style.display = '');
+        return;
+      }
+      items.forEach(li => {
+       li.style.display = li.innerText.toLowerCase().includes(q) ? '' : 'none';
+      });
     }
-    items.forEach(li => {
-      li.style.display = li.innerText.toLowerCase().includes(q) ? '' : 'none';
-    });
-  }
   </script>
 </body>
 </html>
