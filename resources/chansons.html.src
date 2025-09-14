@@ -146,7 +146,7 @@
     <span class="search-icon">🔍</span>
   </div>
 
-  <ul class="sans-puce" style="line-height: 1.6;">
+  <ul class="sans-puce song-list" style="line-height: 1.6;">
     <!--LIST_OF_SONGS-->
   </ul>
 
