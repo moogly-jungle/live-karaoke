@@ -1,4 +1,4 @@
-titre: Sarbacanne
+titre: Sarbacane
 artist: Francis Cabrel
 youtube: https://www.youtube.com/watch?v=qlGoCN9EqWI
 partition: sarbacane.png
