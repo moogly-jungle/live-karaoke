@@ -1,5 +1,5 @@
 titre: La Voix Des Sages 
-artist: Yannick Noak
+artist: Yannick Noah
 youtube: https://www.youtube.com/watch?v=pS3rkCJ-_Lo
 partition: la_voix_des_sages.png
 paroles:
