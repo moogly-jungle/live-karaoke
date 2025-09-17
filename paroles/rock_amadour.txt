@@ -1,5 +1,7 @@
 titre: Rock Amadour
 artiste: Gérard Blanchard
+partition: rock_amadour.png
+youtube: https://youtu.be/kom_ksiXZ3k
 paroles:
 Hoo
 Mon amour est parti avec le loup dans les grottes de Rock-Amadour
