@@ -142,7 +142,7 @@
   </div>
 
   <div class="search-container">
-    <input id="search" class="search-box" type="search" placeholder="Rechercher une chanson, artiste, partition... 🎶" oninput="filterSongs()">
+    <input id="search" class="search-box" type="search" placeholder="Rechercher une chanson, un artiste, ... 🎶" oninput="filterSongs()">
     <span class="search-icon">🔍</span>
   </div>
 
@@ -218,7 +218,7 @@
      <li>68. <a href="chansons/les_copains_d_abord.html"><strong>Les Copains d'abord</strong></a> - <i>George Brassens</i> - <a href="https://www.youtube.com/watch?v=L9oEcWFjF3M">YouTube</a> - <a href="partitions/les_copains_d_abord.png">Partition</a> </li>
      <li>69. <a href="chansons/les_cornichons.html"><strong>Les Cornichons</strong></a> - <i>Nino Ferrer</i> - <a href="https://youtu.be/lK8e-qY7CbQ">YouTube</a> - <a href="partitions/les_cornichons.png">Partition</a> </li>
      <li>70. <a href="chansons/les_feuilles_mortes.html"><strong>Les Feuilles Mortes</strong></a> - <i>Yves Montand</i> - <a href="https://www.youtube.com/watch?v=O1aVWu2rBhE">YouTube</a> - <a href="partitions/les_feuilles_mortes.png">Partition</a> </li>
-     <li>71. <a href="chansons/les_mots_bleus.html"><strong>Les Mots Bleus</strong></a> - <i>Christophe, Alain Baschung</i> - <a href="https://youtu.be/-LDi_4VZ_0g">YouTube</a> - <a href="partitions/les_mots_bleus.png">Partition</a> </li>
+     <li>71. <a href="chansons/les_mots_bleus.html"><strong>Les Mots Bleus</strong></a> - <i>Christophe, Alain Bashung</i> - <a href="https://youtu.be/-LDi_4VZ_0g">YouTube</a> - <a href="partitions/les_mots_bleus.png">Partition</a> </li>
      <li>72. <a href="chansons/les_moulins_de_mon_coeur.html"><strong>Les moulins de mon coeur</strong></a> - <i>Michel Legrand</i> - <a href="https://www.youtube.com/watch?v=qsQ0M-DEt2A&t=30s">YouTube</a> - <a href="partitions/les_moulins_de_mon_coeur.png">Partition</a> </li>
      <li>73. <a href="chansons/les_petits_papiers.html"><strong>Les petits papiers</strong></a> - <i>Régine</i> - <a href="https://www.youtube.com/watch?v=OK8xOxuhYMQ">YouTube</a> - <a href="partitions/les_petits_papiers.png">Partition</a> </li>
      <li>74. <a href="chansons/les_planetes.html"><strong>Les Planètes</strong></a> - <i>M. Pokora</i> - <a href="https://youtu.be/qcA07gL7WEw">YouTube</a> - <a href="partitions/les_planetes.png">Partition</a> </li>
@@ -279,15 +279,17 @@
 
   <script>
 	const items = document.querySelectorAll('.song-list li');
-
+	
 	function filterSongs() {
       const q = document.getElementById('search').value.toLowerCase().trim();
       if (!q) {
-        items.forEach(li => li.style.display = '');
-        return;
-      }
-      items.forEach(li => {
-       li.style.display = li.innerText.toLowerCase().includes(q) ? '' : 'none';
+      items.forEach(li => li.style.display = '');
+      return;
+    }
+    items.forEach(item => {
+      const titre = item.querySelector('strong').textContent.toLowerCase();
+      const artiste = item.querySelector('i').textContent.toLowerCase();
+      item.style.display = (titre.includes(q) ||artiste.includes(q)) ? '' : 'none';
       });
     }
   </script>
