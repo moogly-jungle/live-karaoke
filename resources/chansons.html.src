@@ -142,7 +142,7 @@
   </div>
 
   <div class="search-container">
-    <input id="search" class="search-box" type="search" placeholder="Rechercher une chanson, artiste, partition... 🎶" oninput="filterSongs()">
+    <input id="search" class="search-box" type="search" placeholder="Rechercher une chanson, un artiste, ... 🎶" oninput="filterSongs()">
     <span class="search-icon">🔍</span>
   </div>
 
@@ -163,15 +163,17 @@
 
   <script>
 	const items = document.querySelectorAll('.song-list li');
-
+	
 	function filterSongs() {
       const q = document.getElementById('search').value.toLowerCase().trim();
       if (!q) {
-        items.forEach(li => li.style.display = '');
-        return;
-      }
-      items.forEach(li => {
-       li.style.display = li.innerText.toLowerCase().includes(q) ? '' : 'none';
+      items.forEach(li => li.style.display = '');
+      return;
+    }
+    items.forEach(item => {
+      const titre = item.querySelector('strong').textContent.toLowerCase();
+      const artiste = item.querySelector('i').textContent.toLowerCase();
+      item.style.display = (titre.includes(q) ||artiste.includes(q)) ? '' : 'none';
       });
     }
   </script>
