@@ -1,5 +1,5 @@
 titre: Les Mots Bleus
-artiste: Christophe, Alain Baschung
+artiste: Christophe, Alain Bashung
 partition: les_mots_bleus.png
 youtube: https://youtu.be/-LDi_4VZ_0g
 paroles:
