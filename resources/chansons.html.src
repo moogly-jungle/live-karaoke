@@ -164,24 +164,20 @@
 
   <script>
 	const items = document.querySelectorAll('.song-list li');
-	
-	function filterSongs() {
-      const q = document.getElementById('search').value.toLowerCase().trim();
-      if (!q) {
-      items.forEach(li => li.style.display = '');
-      return;
-    }
-    items.forEach(item => {
-	  const song_number = item.querySelector('.song-number').textContent.toLowerCase();
-      const titre = item.querySelector('.artist').textContent.toLowerCase();
-      const artiste = item.querySelector('.title').textContent.toLowerCase();
-      item.style.display = (
-	             song_number.includes(q)
-	          || titre.includes(q)
-	          || artiste.includes(q)
-	          ) ? '' : 'none';
+	const search_selectors = ['.title', '.artist' , '.song-number']
+
+  function filterSongs() {
+    const query_string = document.getElementById('search').value.trim().toLowerCase();
+    items.forEach(list_item => {
+      // si le texte d'un des éléments titre, artiste etc contient la chaine recherchée...
+      list_item.style.display = 
+        search_selectors.some(selector => {
+            const element = list_item.querySelector(selector);
+            return element &&  element.textContent.toLowerCase().includes(query_string);
+          }) ? "" : "none";  // visible ou unvisible
       });
     }
+	
   </script>
 </body>
 </html>
