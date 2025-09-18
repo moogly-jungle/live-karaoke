@@ -62,7 +62,7 @@ class Song:
         return self.base_file_name + ".html"
 
     def html_link_line(self):
-        return f'<a href="chansons/{self.html_file_name()}"><strong>{self.title}</strong></a> - <i>{self.artist}</i>'
+        return f'<a href="chansons/{self.html_file_name()}"><span class="title">{self.title}</span></a> - <span class="artist">{self.artist}</span>'
 
 # liste des chansons
 songs = []
@@ -100,7 +100,8 @@ with open("resources/chansons.html.src", "r") as src:
                         if song.tabs is not None:
                             tabs_link = f'- <a href="{song.tabs}">Tabs</a>'
                         else: tabs_link = ''
-                        dest.write(f'     <li>{n+1}. {song.html_link_line()} {youtube_link} {partition_link} {tabs_link}</li>\n')
+                        song_number = f'<span class="song-number">{n+1}</span>'
+                        dest.write(f'     <li>{song_number}. {song.html_link_line()} {youtube_link} {partition_link} {tabs_link}</li>\n')
             dest.write(line)
 
 os.system('mv chansons.html docs/chansons.html')

@@ -115,7 +115,6 @@
         font-size: 20px;
         pointer-events: none; /* pour que l'icone ne bloque pas le clic dans le champ */
       }
-
     </style>
   </head>
 <body>
@@ -142,18 +141,20 @@
   </div>
 
   <div class="search-container">
-    <input id="search" class="search-box" type="search" placeholder="Rechercher une chanson, un artiste, ... 🎶" oninput="filterSongs()">
+    <input id="search" class="search-box" type="search"
+		   placeholder="Rechercher une chanson, un artiste, ... 🎶"
+		   oninput="filterSongs()">
     <span class="search-icon">🔍</span>
   </div>
 
-  <ul class="sans-puce song-list" style="line-height: 1.6;">
+  <ul class="sans-puce song-list">
     <!--LIST_OF_SONGS-->
   </ul>
 
   <!--
   <h2>TODO</h2>
   -->  
-  <ul class="sans-puce song-list" style="line-height: 1.6;">
+  <ul class="sans-puce song-list">
     <!--LIST_OF_TODO-->
   </ul>
   
@@ -171,9 +172,14 @@
       return;
     }
     items.forEach(item => {
-      const titre = item.querySelector('strong').textContent.toLowerCase();
-      const artiste = item.querySelector('i').textContent.toLowerCase();
-      item.style.display = (titre.includes(q) ||artiste.includes(q)) ? '' : 'none';
+	  const song_number = item.querySelector('.song-number').textContent.toLowerCase();
+      const titre = item.querySelector('.artist').textContent.toLowerCase();
+      const artiste = item.querySelector('.title').textContent.toLowerCase();
+      item.style.display = (
+	             song_number.includes(q)
+	          || titre.includes(q)
+	          || artiste.includes(q)
+	          ) ? '' : 'none';
       });
     }
   </script>
