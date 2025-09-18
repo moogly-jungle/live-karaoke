@@ -87,10 +87,12 @@ main {
 }
 
 /* ===== Liste des chansons ===== */
+
 .song-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  style="line-height: 1.6;"
 }
 
 .song-list li {
@@ -108,13 +110,20 @@ main {
   background: #fffaf5;
 }
 
-.song-list li strong {
-  color: #cc4400;
+
+.song-list li .song-number {
 }
 
-.song-list li i {
-  color: #666;
+.song-list li .title {
+	color: #cc4400;
+	font-weight: bold;
 }
+
+.song-list li .artist {
+	color: #666;
+	font-style: italic;
+}
+
 
 /* ===== Lien retour accueil ===== */
 .back-home {
