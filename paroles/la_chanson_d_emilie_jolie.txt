@@ -1,7 +1,7 @@
 titre: La chanson d'Émilie Jolie et du Grand Oiseau
 artiste: Julien Clerc
 youtube: https://youtu.be/A2X5r6Oe-7M
-partition: la_chanson_emilie_jolie.png
+partition: la_chanson_d_emilie_jolie.png
 paroles:
 [Le conteur]:
 Il y a un grand arbre

@@ -1,6 +1,6 @@
 titre: Sweet Home Chicago
 artiste: Robert Johnson, The Blues Brothers
-partition: sweet_home_chicago
+partition: sweet_home_chicago.png
 paroles:
 [Chorus]
 Come on
