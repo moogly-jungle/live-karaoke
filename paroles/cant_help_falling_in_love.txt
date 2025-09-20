@@ -1,5 +1,7 @@
 titre: Can't Help Falling In Love
 artiste: Elvis Presley
+partition: cant_help_falling_in_love.png
+youtube: https://www.youtube.com/watch?v=vGJTaP6anOU
 paroles:
 Wise men say, only fools rush in   
 but I can't help, falling in love with you
