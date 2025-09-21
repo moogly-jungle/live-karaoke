@@ -1,7 +1,7 @@
-titre: The Girl of Ipanema
-artist: Tom Jobim et Vinicius Morales
+titre: The Girl from Ipanema
+artist: Tom Jobim et Vinicius Moraes
 youtube: https://www.youtube.com/watch?v=c5QfXjsoNe4
-partition: girl_of_ipanema.png
+partition: the_girl_from_ipanema.png
 paroles:
 Tall and tan and young and lovely
 The girl from Ipanema goes walking
