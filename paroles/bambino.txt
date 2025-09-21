@@ -1,5 +1,7 @@
 titre: Bambino
 artiste: Dalida
+partition: bambino.png
+youtube: https://youtu.be/YM-xhNVfzkg
 paroles:
 Les yeux battus,
 La mine triste et les joues blêmes,
