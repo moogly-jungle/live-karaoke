@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ song.header.title | escape }}</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>{{ song.header.title | escape }} - {{ song.header.artist | escape }}</h1>
+  {% if song.header.youtube %}
+    <a href="{{ song.header.youtube | escape }}">YouTube</a>
+  {% endif %}
+  <pre>
+{% for line in song.lyrics %}{{ line | escape }}{% endfor %}
+  </pre>
+  <a href="../chansons.html">Retour</a>
+  <br>
+  <br>
+</body>
+</html>

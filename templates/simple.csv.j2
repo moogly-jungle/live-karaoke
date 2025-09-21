@@ -1,0 +1,5 @@
+title,artist
+{% for song in songs -%}
+    {{  song.header.title | csv_escape -}},
+    {{- song.header.artist | csv_escape }}
+{% endfor %}
