@@ -1,6 +1,6 @@
 titre: The House of The Rising Sun
 artist: The Animals
-youtube: https://youtu.be/Rd0n3ZL6MeA?si=v=4-43lLKaqBQ
+youtube: https://youtu.be/N4bFqW_eu2I
 partition: the_house_of_the_rising_sun.png
 paroles:
 There is a house in New Orleans
