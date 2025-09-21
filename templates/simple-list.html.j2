@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des chansons</title>
+</head>
+<body>
+    <h1>Liste des chansons</h1>
+    <ul>
+        {%- for song in songs -%}
+            <li>{{ song.header.title | escape }} - {{ song.header.artist | escape }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

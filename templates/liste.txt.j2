@@ -1,0 +1,4 @@
+{# A simple CSV list of songs, pour Eric #}
+{% for song in songs -%}
+    {{  song.header.title }} - {{ song.header.artist }}
+{% endfor %}
