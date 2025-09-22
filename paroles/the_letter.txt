@@ -3,8 +3,8 @@ artiste: The Box Tops
 youtube: https://www.youtube.com/watch?v=HIWY8UyW9bw
 partition: the_letter.png
 paroles:
-Gimme a ticket for an aeroplane
 [Couplet 1]
+Gimme a ticket for an aeroplane
 Ain't got time to take a fast train
 Lonely days are gone, I'm a-goin' home
 My baby, just a wrote me a letter
