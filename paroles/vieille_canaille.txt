@@ -1,10 +1,10 @@
 titre: Vieille Canaille
 artiste: Serge Gainsbourg
 partition: vieille_canaille.png
-youtube: 
+youtube: https://youtu.be/bSdqgV-hLow
 paroles:
-
-(1) J's'rai content quand tu s'ras mort
+[1]
+J's'rai content quand tu s'ras mort
 Vieille canaille
 J's'rai content quand tu s'ras mort
 Vieille canaille         
@@ -13,7 +13,8 @@ Je saurai bien te descendre
 J's'rai content d'avoir ta peau
 Vieux chameau
 
-(2) Je t'ai reçu à bras ouverts
+[2]
+Je t'ai reçu à bras ouverts
 Vieille canaille
 T'avais toujours ton couvert
 Vieille canaille
@@ -22,7 +23,8 @@ Tu t'es couché dans mon lit
 Et t'as bu tout mon porto
 Vieux chameau
 
-(3) Puis je t'ai présenté ma femme
+[3]
+Puis je t'ai présenté ma femme
 Vieille canaille
 Puis je t'ai présenté ma femme
 Vieille canaille
@@ -31,9 +33,8 @@ Tu l'embrassais dans les coins
 Dès que j'avais tourné le dos
 Vieux chameau
 
-(changement de tonalité : + 1/2 ton)
-
-(4) Puis t'es parti avec elle
+[4]
+Puis t'es parti avec elle
 Vieille canaille
 T'es parti avec elle
 Vieille canaille
@@ -42,9 +43,12 @@ Le dessus de lit en dentelle
 L'argenterie et les rideaux
 Vieux chameau
 
-(changement de tonalité : + 1/2 ton)
+[instrumental, 1 ou 2 grilles]
 
-(5) Mais j'ai sorti mon fusil
+[changement de tonalité : + 1/2 ton]
+
+[5]
+Maisj'ai sorti mon fusil
 Vieille canaille
 Mais j'ai sorti mon fusil
 Vieille canaille
@@ -54,7 +58,8 @@ Et j't'aurai vite refroidi
 Vieux bandit
 On te mettra dans une tombe
 
-(6) Vieille canaille
+[6]
+Vieille canaille
 Et moi j'irai faire la bombe
 Vieille canaille
 A coup de petits verres d'eau de vie
