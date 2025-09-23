@@ -1,0 +1,44 @@
+\documentclass[12pt]{extarticle}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage[a4paper,
+            left=1.5cm,
+            right=1.5cm,
+            top=1.5cm,
+            bottom=3cm
+            ]{geometry}
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\usepackage{makecell}
+\usepackage{tabularray}
+\setlength{\headheight}{15pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\large \bf \textcolor{red}{Instagram : @karacoll33}}
+
+    \begin{document}
+
+    \begin{tblr}{|f{4cm}|m{13cm}|}
+      \hline 
+      \includegraphics[width=4cm]{cropped-logo-karacoll.jpeg} &
+      \huge \makecell{
+KaraColl - Le collectif Karaoké \\
+Ils jouent, vous chantez !} \\
+      \hline
+\end{tblr}
+\vspace{1em}
+\begin{multicols}{2}
+\sloppy
+\begin{enumerate}[nolistsep]
+{% for song in songs -%}
+  \item   {{ song.header.title | latex_escape }}
+        - {{ song.header.artist | latex_escape }}
+{% endfor -%}
+\end{enumerate}
+\end{multicols}
+\end{document}

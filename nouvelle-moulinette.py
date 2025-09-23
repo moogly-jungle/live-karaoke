@@ -39,6 +39,19 @@ def csv_escape(text):
 
 jinja2.filters.FILTERS['csv_escape'] = csv_escape
 
+def latex_escape(text): 
+    """
+    Filter for jinja2. Escape text for LaTeX output.
+    """
+    text = text.replace('\\', '\\textbackslash{}')
+    text = text.replace('{', '\\{')
+    text = text.replace('}', '\\}')
+    text = text.replace('$', '\\$')
+    return text
+
+jinja2.filters.FILTERS['latex_escape'] = latex_escape
+
+
 # tri des chansons par titre
 songs.sort(key=lambda s: s.header.get('title').lower())
 
@@ -56,13 +69,14 @@ def generate_list(result_path, template_path, songs):
 generate_list('docs/chansons.txt', 'liste.txt.j2', songs)
 generate_list('docs/chansons.csv', 'simple.csv.j2', songs)
 generate_list("docs/public-list.html", 'public-list.html.j2', songs)
-
+generate_list('latex/liste.tex', 'liste.tex.j2', songs)
 
 for song in songs:
     prefix = song.name.removesuffix('.txt')
     output_path = f"docs/lyrics/{prefix}.html"
     with open(output_path, 'w') as f:
-        # print(f'* generate lyrics "{output_path}"')
+        # print(f'* generate lyrics "{output_path}"')  
         f.write(lyrics_template.render(song=song))
 print(f'- all {len(songs)} lyrics done')
-        
+
+
