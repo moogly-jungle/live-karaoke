@@ -1,5 +1,7 @@
-titre: Sweet Dreams
-artist: Eurithmics
+titre: Sweet Dreams (Are Made Of This)
+artist: Eurythmics
+youtube: https://youtu.be/qeMFqkcPYcg
+partition: sweet_dreams.png
 paroles:
 Sweet dreams are made of this
 Who am I to disagree ?
