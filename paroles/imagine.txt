@@ -1,6 +1,8 @@
 titre: Imagine
 artiste: John Lennon
-paroles:
+youtube: https://youtu.be/iOs9Osz3UFQ?t=3
+partition: imagine.png
+paroles: 
 Imagine there's no heaven
 It's easy if you try
 No hell below us
