@@ -27,6 +27,10 @@ for nom in paroles:
            if line.startswith(tag + ':'):
                 tag_found = True
                 nom_partition = line[(len(tag) + 1):].strip()
+                if nom_partition == "":
+                    print(f"ERREUR: {nom}\tchamp 'partition' vide")
+                    nb_fichiers_ko += 1
+                    break
                 chemin_partition = f"docs/partitions/{nom_partition}"
                 if os.path.exists(chemin_partition):
                     nb_fichiers_ok += 1
