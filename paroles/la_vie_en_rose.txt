@@ -1,14 +1,8 @@
 titre: La vie en rose
-<<<<<<< HEAD
 artiste: Edith Piaf
 partition: la_vie_en_rose.png
 youtube: https://youtu.be/rzeLynj1GYM
 paroles: 
-=======
-artist: Edith Piaf
-partition: la_vie_en_rose.png
-paroles:
->>>>>>> main
 Des yeux qui font baisser les miens
 Un rire qui se perd sur sa bouche
 Voilà le portrait sans retouches
