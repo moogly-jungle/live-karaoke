@@ -10,7 +10,9 @@
 	./convertir_nouvelles_partitions.sh
 )
 python3 verifier-paroles.py
-python3 moulinette.py
+# python3 moulinette.py
+
+rm docs/paroles/*.html
 python3 nouvelle-moulinette.py
 ./compiler-liste-latex.sh
 
