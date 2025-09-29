@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Les chansons</title>
+  <title>Liste des chansons</title>
   <link rel="stylesheet" href="style.css">
   <style>
       body {
@@ -127,8 +127,10 @@
     <p>🎤 <strong>Le collectif Karaoké</strong> :)<br>
     Ils jouent, <strong>vous chantez</strong> ! 🎶</p>
 
-    <p>Retrouvez-nous chaque mois, le 2ième vendredi au 
-    <strong><a href="https://www.chopeetcompagnie-bordeaux.fr">Chope et Compagnie</a>, Artigues-Près-Bordeaux</strong>.
+    <p>Retrouvez-nous tous les  2ème vendredis de chaque mois
+	  au <strong><a  href="https://www.chopeetcompagnie-bordeaux.fr/">Chope et Compagnie</a>,
+     Artigues-Près-Bordeaux</strong>
+	</p>
 
     <p>Si vous ne trouvez pas votre bonheur ici, n'hésitez pas à nous suggérer une chanson que vous voudriez chanter ! Pour ce faire, rendez-vous <a href="https://forms.gle/nma55N8XSGRkphcC8">ici</a> 📝</p>
 
@@ -147,20 +149,17 @@
     <span class="search-icon">🔍</span>
   </div>
 
-  <ul class="sans-puce song-list">  
-    {%- for song in songs -%}         
-
-<li><span class="song-number">{{ loop.index }}</span>.
-<a href="{{lyrics_link_dir}}/{{ song.name.removesuffix('.txt')}}.html"><span class="title">{{song.header.title | escape}}</span></a>
-- <span class="artist">{{song.header.artist | escape}}</span> 
-{% if song.header.youtube is defined %}- <a href="{{song.header.youtube}}">YouTube</a> {% endif %}
-{% if song.header.score is defined   %}- <a href="{{score_link_dir}}/{{song.header.score | escape}}">Partition</a> {% endif %}
-{% if song.header.tabs is defined    %}- <a href="{{song.header.tabs | escape}}">Tabs</a>{% endif %}
-{% if song.header.notes is defined   %}- <span class="notes">{{song.header.notes | escape}}</span>{% endif %}
-</li>
-     {% endfor %}
+  <ul class="sans-puce song-list">
+    <!--LIST_OF_SONGS-->
   </ul>
 
+  <!--
+  <h2>TODO</h2>
+  -->  
+  <ul class="sans-puce song-list">
+    <!--LIST_OF_TODO-->
+  </ul>
+  
   <a href="index.html"
 	 style="display:block; text-align:center; margin:30px;
 			">Retour à l'accueil</a>
