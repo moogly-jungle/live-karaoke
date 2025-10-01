@@ -1,5 +1,5 @@
 titre: Dommage
-artist: Bigflo et Oly
+artiste: Bigflo et Oly
 youtube: https://www.youtube.com/watch?v=8AF-Sm8d8yk
 partition: dommage.png
 paroles:

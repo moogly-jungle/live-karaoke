@@ -1,5 +1,5 @@
 titre: La ballade de Jim
-artist: Alain Souchon
+artiste: Alain Souchon
 youtube: https://www.youtube.com/watch?v=Eg9YmQqTg3s
 partition: la_ballade_de_jim.png 
 paroles:

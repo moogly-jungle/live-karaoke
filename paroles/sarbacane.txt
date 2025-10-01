@@ -1,5 +1,5 @@
 titre: Sarbacane
-artist: Francis Cabrel
+artiste: Francis Cabrel
 youtube: https://www.youtube.com/watch?v=qlGoCN9EqWI
 partition: sarbacane.png
 paroles:

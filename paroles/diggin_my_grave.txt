@@ -1,5 +1,5 @@
 titre: Diggin' my grave
-artist: Lady Gaga
+artiste: Lady Gaga
 youtube: https://www.youtube.com/watch?v=HGgTX6DPkdQ
 partition: diggin_my_grave.png
 paroles:

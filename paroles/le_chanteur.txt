@@ -1,5 +1,5 @@
 titre: Le chanteur
-artist: Daniel Balavoine
+artiste: Daniel Balavoine
 youtube: https://www.youtube.com/watch?v=HXdP15Ubu6M
 partition: le_chanteur.png
 paroles:

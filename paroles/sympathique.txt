@@ -1,5 +1,5 @@
 titre: Sympathique (Je ne veux pas travailler)
-artist: Pink Martini
+artiste: Pink Martini
 youtube: https://www.youtube.com/watch?v=ANVQScgIeag
 partition: sympathique.png
 paroles:

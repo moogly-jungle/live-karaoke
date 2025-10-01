@@ -1,5 +1,5 @@
 titre: Amsterdam
-artist: Jacques Brel
+artiste: Jacques Brel
 youtube: https://www.youtube.com/watch?v=V3BSj1cHX-M
 partition: amsterdam.png
 paroles:

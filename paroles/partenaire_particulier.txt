@@ -1,5 +1,5 @@
 titre: Partenaire Particulier
-artist: Fettweis Sudreau
+artiste: Fettweis Sudreau
 youtube: https://www.youtube.com/watch?v=ccSPZZ2AKXY
 partition: partenaire_particulier.png
 paroles:

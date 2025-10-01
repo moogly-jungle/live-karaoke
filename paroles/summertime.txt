@@ -1,5 +1,5 @@
 titre: Summertime
-artist: George Gershwin
+artiste: George Gershwin
 youtube: https://www.youtube.com/watch?v=u2bigf337aU
 partition: summertime.png
 paroles:

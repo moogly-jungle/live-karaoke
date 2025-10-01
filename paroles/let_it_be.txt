@@ -1,5 +1,5 @@
 titre: Let it be
-artist: Beatles
+artiste: Beatles
 youtube: https://www.youtube.com/watch?v=CGj85pVzRJs
 partition: let_it_be.png
 paroles:

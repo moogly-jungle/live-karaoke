@@ -1,5 +1,5 @@
 titre: Je te promets
-artist: Johnny Hallyday
+artiste: Johnny Hallyday
 youtube: https://www.youtube.com/watch?v=-TkrMyXYbik
 partition: je_te_promets.png
 paroles:

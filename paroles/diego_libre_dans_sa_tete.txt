@@ -1,5 +1,5 @@
 titre: Diego libre dans sa tête
-artist: Michel Berger
+artiste: Michel Berger
 youtube: https://www.youtube.com/watch?v=5JHaH1GzAO8
 partition: diego_libre_dans_sa_tete.png
 paroles:

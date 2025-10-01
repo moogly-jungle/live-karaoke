@@ -1,5 +1,5 @@
 titre: Femme Libérée
-artist: Cookie Dingler
+artiste: Cookie Dingler
 youtube: https://www.youtube.com/watch?v=8WDwvngENn0
 partition: femme_liberee.png 
 paroles:

@@ -1,5 +1,5 @@
 titre: Comme d'habitude
-artist: Claude François
+artiste: Claude François
 youtube: https://www.youtube.com/watch?v=kJl2ICLpj00
 partition: comme_d_habitude.png
 paroles:

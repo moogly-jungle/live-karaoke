@@ -1,5 +1,5 @@
 titre: Tout le bonheur du monde
-artist: Sinsemilia
+artiste: Sinsemilia
 youtube: https://www.youtube.com/watch?v=dGBQUcQZmYQ
 partition: tout_le_bonheur_du_monde.png
 paroles:

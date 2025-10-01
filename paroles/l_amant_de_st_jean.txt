@@ -1,5 +1,5 @@
 titre: L'amant de Saint-Jean
-artist: Lucienne Delyle 
+artiste: Lucienne Delyle 
 youtube: https://www.youtube.com/watch?v=_qQeJLSYz_M
 partition: mon_amant_de_st_jean.png
 paroles:

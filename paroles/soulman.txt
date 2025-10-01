@@ -1,5 +1,5 @@
 titre: Soulman
-artist: Ben l'Oncle Soul
+artiste: Ben l'Oncle Soul
 youtube: https://www.youtube.com/watch?v=69ptYXvUo7M
 partition: soulman.png
 tabs: https://ultimate-guitar.com/tab/ben-loncle-soul/soulman-chords-1715034

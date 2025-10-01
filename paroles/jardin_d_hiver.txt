@@ -1,5 +1,5 @@
 titre: Jardin d'Hiver
-artist: Henri Salvador, Benjamin Biolay
+artiste: Henri Salvador, Benjamin Biolay
 youtube: https://www.youtube.com/watch?v=gFkUVik35U8
 partition: jardin_d_hiver.png
 paroles:

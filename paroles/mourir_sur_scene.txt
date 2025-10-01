@@ -1,5 +1,5 @@
 titre: Mourir sur Scène
-artist: Dalida
+artiste: Dalida
 youtube: https://www.youtube.com/watch?v=X16fYEugii4
 partition: mourir_sur_scene.png
 paroles:

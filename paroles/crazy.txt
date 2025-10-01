@@ -1,5 +1,5 @@
 titre: Crazy
-artist: Gnarls Barkley
+artiste: Gnarls Barkley
 partition: crazy.png
 youtube: https://youtu.be/Qe500eIK1oA
 paroles:

@@ -1,5 +1,5 @@
 titre: La Foule
-artist: Edith Piaf
+artiste: Edith Piaf
 youtube: https://www.youtube.com/watch?v=Fgn8gZHJZzA
 partition: la_foule.png
 paroles:

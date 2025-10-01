@@ -1,5 +1,5 @@
 titre: Ma philosophie
-artist: Amel Bent
+artiste: Amel Bent
 youtube: https://www.youtube.com/watch?v=D38EUIll1pM
 partition: ma_philosophie.png
 paroles:

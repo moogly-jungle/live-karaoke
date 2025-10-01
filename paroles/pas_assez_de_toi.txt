@@ -1,5 +1,5 @@
 titre: Pas Assez de Toi
-artist: Mano Negra
+artiste: Mano Negra
 youtube: https://www.youtube.com/watch?v=OSvklUkAVk8
 partition: pas_assez_de_toi.png
 paroles:

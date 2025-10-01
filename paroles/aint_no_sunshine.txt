@@ -1,5 +1,5 @@
 titre: Ain't no sunshine
-artist: Bill Withers
+artiste: Bill Withers
 youtube: https://www.youtube.com/watch?v=YuKfiH0Scao
 partition: aint_no_sunshine.png
 tabs: https://tabs.ultimate-guitar.com/tab/bill-withers/aint-no-sunshine-chords-468744

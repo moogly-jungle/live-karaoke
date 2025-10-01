@@ -1,5 +1,5 @@
 titre: Feeling Good
-artist: Nina Simone
+artiste: Nina Simone
 youtube: https://www.youtube.com/watch?v=oHs98TEYecM
 partition: feeling_good.png
 paroles:

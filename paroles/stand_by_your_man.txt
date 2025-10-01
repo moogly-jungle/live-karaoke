@@ -1,5 +1,5 @@
 titre: Stand by your man
-artist: Tammy Wynette
+artiste: Tammy Wynette
 youtube: https://www.youtube.com/watch?v=AM-b8P1yj9w
 partition: stand_by_your_man.png
 paroles:

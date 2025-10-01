@@ -1,5 +1,7 @@
 titre: Yesterday
-artist: Beatles
+artiste: Beatles
+partition: yesterday.png
+youtube: https://youtu.be/NrgmdOz227I
 paroles:
 Yesterday
 All my troubles seemed so far away
@@ -26,4 +28,5 @@ Yesterday
 Love was such an easy game to play
 Now I need a place to hide away
 Oh, I believe in yesterday
+
 Mm mm mm mm mm mm mm
