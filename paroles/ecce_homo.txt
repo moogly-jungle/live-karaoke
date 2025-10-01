@@ -1,5 +1,5 @@
 titre: Ecce Homo
-artist: Serge Gainsbourg
+artiste: Serge Gainsbourg
 youtube: https://www.youtube.com/watch?v=MukeH1hWrxY
 partition: ecce_homo.png
 paroles:

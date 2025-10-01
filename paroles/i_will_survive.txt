@@ -1,5 +1,5 @@
 titre: I will survive
-artist: Gloria Gaynor
+artiste: Gloria Gaynor
 youtube: https://www.youtube.com/watch?v=6dYWe1c3OyU
 partition: i_will_survive.png
 paroles:

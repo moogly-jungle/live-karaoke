@@ -1,5 +1,5 @@
 titre: Eternal Flame
-artist: Bangles
+artiste: Bangles
 youtube: https://www.youtube.com/watch?v=PSoOFn3wQV4
 partition: eternal_flame.png
 paroles:

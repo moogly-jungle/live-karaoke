@@ -1,5 +1,5 @@
 titre: New York avec toi
-artist: Téléphone
+artiste: Téléphone
 youtube: https://www.youtube.com/watch?v=aWROzt7kudk
 partition: new_york_avec_toi.png
 paroles:

@@ -1,5 +1,5 @@
 titre: El Viento
-artist: Manu Chao
+artiste: Manu Chao
 youtube: https://www.youtube.com/watch?v=tQ2nl0_boh4
 partition: el_viento.png
 paroles:

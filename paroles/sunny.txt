@@ -1,5 +1,5 @@
 titre: Sunny
-artist: Bobby Hebb
+artiste: Bobby Hebb
 youtube: https://youtu.be/mVhy7JPqM7A
 partition: sunny.png
 paroles:

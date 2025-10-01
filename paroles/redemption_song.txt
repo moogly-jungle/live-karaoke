@@ -1,5 +1,5 @@
 titre: Redemption Song
-artist: Bob Marley
+artiste: Bob Marley
 youtube: https://www.youtube.com/watch?v=kOFu6b3w6c0
 partition: redemption_song.png
 paroles:

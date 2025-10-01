@@ -1,5 +1,5 @@
 titre: No Woman No Cry
-artist: Bob Marley
+artiste: Bob Marley
 youtube: https://www.youtube.com/watch?v=mZ6VezKMoRY
 partition: no_woman_no_cry.png
 paroles:

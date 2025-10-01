@@ -1,5 +1,5 @@
 titre: Le Tourbillon de la Vie
-artist: Jeanne Moreau
+artiste: Jeanne Moreau
 youtube: https://www.youtube.com/watch?v=B4nHBn8zypc
 partition: le_tourbillon_de_la_vie.png
 paroles:

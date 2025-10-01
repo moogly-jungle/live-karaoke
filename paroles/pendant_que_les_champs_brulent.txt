@@ -1,5 +1,5 @@
 titre: Pendant que les champs brûlent
-artist: Niagara
+artiste: Niagara
 youtube: https://www.youtube.com/watch?v=NTVvmCAEg3A
 partition: pendant_que_les_champs_brulent.png 
 paroles:

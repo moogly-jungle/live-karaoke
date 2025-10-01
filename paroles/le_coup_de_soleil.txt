@@ -1,5 +1,5 @@
 titre: Le Coup De Soleil
-artist: Richard Cocciante
+artiste: Richard Cocciante
 youtube: https://youtu.be/CIjqKL33TTE
 partition: le_coup_de_soleil.png
 paroles:

@@ -1,5 +1,5 @@
 titre: Harley Davidson
-artist: Serge Gainsbourg
+artiste: Serge Gainsbourg
 youtube: https://www.youtube.com/watch?v=AqZxMjGhhyw
 partition: harley_davidson.png
 paroles:

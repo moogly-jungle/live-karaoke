@@ -1,5 +1,5 @@
 titre: Les petits papiers
-artist: Régine
+artiste: Régine
 youtube: https://www.youtube.com/watch?v=OK8xOxuhYMQ
 partition: les_petits_papiers.png
 paroles:

@@ -1,5 +1,5 @@
 titre: Le Pénitencier
-artist: Johnny Hallyday
+artiste: Johnny Hallyday
 youtube: https://youtu.be/4NM5Gc0pa-M
 partition: le_penitencier.png
 paroles:

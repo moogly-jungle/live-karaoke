@@ -1,5 +1,5 @@
 titre: La vie en rose
-artist: Edith Piaf
+artiste: Edith Piaf
 partition: la_vie_en_rose.png
 youtube: https://www.youtube.com/watch?v=rzeLynj1GYM
 paroles:

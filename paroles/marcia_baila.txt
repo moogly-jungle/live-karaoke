@@ -1,5 +1,5 @@
 titre: Marcia Baila
-artist: Rita Mitsouko
+artiste: Rita Mitsouko
 youtube: https://www.youtube.com/watch?v=1zWlnzFXcKY
 partition: marcia_baila.png
 paroles:

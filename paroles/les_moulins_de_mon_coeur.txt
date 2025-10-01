@@ -1,5 +1,5 @@
 titre: Les moulins de mon coeur
-artist: Michel Legrand
+artiste: Michel Legrand
 youtube: https://www.youtube.com/watch?v=qsQ0M-DEt2A&t=30s
 partition: les_moulins_de_mon_coeur.png
 paroles:

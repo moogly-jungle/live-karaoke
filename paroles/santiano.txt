@@ -1,5 +1,5 @@
 titre: Santiano
-artist: Hughes Aufray
+artiste: Hughes Aufray
 youtube: https://www.youtube.com/watch?v=VQd1IOyhKS4
 partition: santiano.png
 paroles:

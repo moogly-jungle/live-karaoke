@@ -1,5 +1,5 @@
 titre: Macumba
-artist: Jean-Pierre Mader
+artiste: Jean-Pierre Mader
 youtube: https://youtu.be/Rd0n3ZL6MeA?si=HMPR_W8JZdR4xFtE
 partition: macumba.png
 paroles:

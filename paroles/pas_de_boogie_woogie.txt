@@ -1,5 +1,5 @@
 titre:Pas de Boogie Woogie
-artist: Eddy Mitchell
+artiste: Eddy Mitchell
 youtube: https://www.youtube.com/watch?v=EEbOMyB2YJQ
 partition: pas_de_boogie_woogie.png
 paroles:

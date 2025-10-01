@@ -1,5 +1,5 @@
 titre: Les Cactus
-artist: Jacques Dutronc
+artiste: Jacques Dutronc
 partition: les_cactus.png
 youtube: https://youtu.be/4TlKA4vqAuo
 paroles: 

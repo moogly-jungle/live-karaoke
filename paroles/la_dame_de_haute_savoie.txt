@@ -1,5 +1,5 @@
 titre: La Dame de Haute Savoie
-artist: Francis Cabrel
+artiste: Francis Cabrel
 youtube: https://www.youtube.com/watch?v=HdcL3XKIgQE
 partition: la_dame_de_haute_savoie.png
 paroles:

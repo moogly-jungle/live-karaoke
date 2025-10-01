@@ -1,5 +1,5 @@
 titre: Shallow
-artist: Lady Gaga
+artiste: Lady Gaga
 youtube: https://www.youtube.com/watch?v=bo_efYhYU2A
 partition: shallow.png
 tabs: https://tabs.ultimate-guitar.com/tab/misc-soundtrack/a-star-is-born-shallow-chords-2480119

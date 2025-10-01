@@ -1,5 +1,5 @@
 titre: Sweet Dreams (Are Made Of This)
-artist: Eurythmics
+artiste: Eurythmics
 youtube: https://youtu.be/qeMFqkcPYcg
 partition: sweet_dreams.png
 paroles:

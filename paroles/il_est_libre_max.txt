@@ -1,5 +1,5 @@
 titre: Il est libre Max
-artist: Hervé Cristiani
+artiste: Hervé Cristiani
 youtube: https://www.youtube.com/watch?v=98uUxfo_eMw
 partition: il_est_libre_max.png
 paroles:

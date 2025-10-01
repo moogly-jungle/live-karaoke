@@ -1,5 +1,5 @@
 titre: Sing Sing Song
-artist: Claude Nougaro
+artiste: Claude Nougaro
 youtube: https://www.youtube.com/watch?v=E7dV8NIfHmU
 partition: sing_sing.png
 paroles:

@@ -1,5 +1,5 @@
 titre: Blowin' the wind
-artist: Bob Dylan
+artiste: Bob Dylan
 youtube: https://www.youtube.com/watch?v=vWwgrjjIMXA
 partition: blowing_the_wind.png 
 paroles:

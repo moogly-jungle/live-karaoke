@@ -1,5 +1,5 @@
 titre: La fille du père Noël
-artist: Jacques Lanzmann et Jacques Dutronc
+artiste: Jacques Lanzmann et Jacques Dutronc
 youtube: https://www.youtube.com/watch?v=o_DlemY_PDk
 partition: la_fille_du_pere_noel.png
 paroles:

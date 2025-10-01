@@ -1,5 +1,5 @@
 titre: Killing Me Softly
-artist: Fugees
+artiste: Fugees
 youtube: https://www.youtube.com/watch?v=oKOtzIo-uYw
 partition: killing_me_softly.png
 paroles:
