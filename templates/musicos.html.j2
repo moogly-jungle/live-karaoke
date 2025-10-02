@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Page des musiciens</title>
   <style>
-    body {
+     body {
   	   font-family: sans-serif ;
  	   background-color: green;
 	   color: white;
@@ -17,19 +17,24 @@
 		font-size: x-large;
 		font-weight: bold;
 	}
-	header {
+	.header {
 		font-family: monospace;
-		position: sticky; 
+		position: fixed; 
 		top: 0; 
-		background-color: #040;;
+		background-color: #040;
 		padding: 10px;
-		z-index: 1000; /* Assure que l'en-tête reste au-dessus du contenu */
+		z-index: 1000; 
 	}
-	</style>
+	.songs {
+		margin-top: 5em;
+	}
+  </style>
   <script>
 	//variables globales
-    var items;
-	var search_selectors;
+    var items = [];
+	var search_selectors =  [
+  	       '.title', '.artist' , '.song-number'
+	];
 
 	window.onload = function() {
 		const search_box = document.getElementById('search');
@@ -37,9 +42,6 @@
 		search_box.innerText = "";
 		search_box.value = "";
 	    items = document.querySelectorAll('.song');
-	    search_selectors = [
-  	       '.title', '.artist' , '.song-number'
-	    ];
 	}
 
 	// montre ou cache les chansons selon la recherche
@@ -62,9 +64,8 @@
 
 
 <body>
-  <header>
-	<div class="search-container">
-	  	   Chercher
+  <div class="search-container header">
+	Chercher
     	<input id="search" class="search-box" type="search"
 		   placeholder="une chanson, un artiste, un numéro ... 🎶"
 		   size="30"
@@ -75,33 +76,36 @@
 		   <a href="#haut"><button>haut</button></a>
 		   <a href="#bas"><button>bas</button></a>		   
   </div>
-  </header>
 
-  	<a name=haut>
-    <h1>Les {{ songs | length}} chansons</h1>
-</a>
-  <table class=song-table>
-    {%- for song in songs -%}
+  <div class="songs">
+  	<a name=haut><h1>Les {{ songs | length}} chansons</h1></a>
+	<table class=song-table>
+      {%- for song in songs -%}
       <tbody class="song">
-	  <tr>
-		<td><span class="song-number">{{ loop.index }}</span>.</td>
-		<td><span class="title">{{song.header.title | escape}}</span>
-		  - <span class="artist">{{song.header.artist | escape}}</span>
-		</td>
-	  </tr>
-	  {% if song.header.notes is defined   %}
+		<tr>
+		  <td><span class="song-number">{{ loop.index }}</span>.</td>
+		  <td><span class="title">{{song.header.title | escape}}</span>
+			- <span class="artist">{{song.header.artist | escape}}</span>
+		  </td>
+		</tr>
+		{% if song.header.notes is defined   %}
 		<tr><td/><td><span class="notes">{{song.header.notes | escape}}</span></td></tr>{% endif %}
-	  <tr>
-	  <td></td>
-	  <td>{% if song.header.score is defined   %}<a href="{{score_link_dir}}/{{song.header.score | escape}}"><button>&#x1d11e; Partition</button></a> {% endif %}
-{% if song.header.tabs is defined    %}- <a href="{{song.header.tabs | escape}}"><button>&#x1F3B8; Tabs</button></a>{% endif %}
+		<tr>
+		  <td></td>
+		  <td>
+			{%- if song.header.score is defined   -%}
+			<a href="{{score_link_dir}}/{{song.header.score | escape}}"><button>&#x1d11e; Partition</button></a>
+			{%- endif %}
+			{%- if song.header.tabs is defined    -%}
+			- <a href="{{song.header.tabs | escape}}"><button>&#x1F3B8; Tabs</button></a>{%- endif %}
 		<a href="{{lyrics_link_dir}}/{{ song.name.removesuffix('.txt')}}.html"><button>&#x1F4D6; Paroles</button></a>
-	{% if song.header.youtube is defined %} - <a href="{{song.header.youtube}}"><button>YouTube</button></a> {% endif %}
-	<hr/>
-	</td></tr>
-	</tbody>
-     {% endfor %}
-  </table>
-<a name="bas" />
+	{%- if song.header.youtube is defined -%} - <a href="{{song.header.youtube}}"><button>YouTube</button></a> {%- endif %}
+		  <hr/></td>
+		</tr>
+	  </tbody>
+      {% endfor %}
+	</table>
+	<a name="bas"></a>
+  </div>
 </body>
 </html>
