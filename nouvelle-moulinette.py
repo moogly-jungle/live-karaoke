@@ -74,6 +74,7 @@ generate_list('docs/chansons.txt', 'liste.txt.j2', songs)
 generate_list('docs/chansons.csv', 'simple.csv.j2', songs)
 generate_list("docs/chansons.html", 'public-list.html.j2', songs)
 generate_list('latex/liste.tex', 'liste.tex.j2', songs)
+generate_list('docs/musicos.html', 'musicos.html.j2', songs)
 
 for song in songs:
     prefix = song.name.removesuffix('.txt')
