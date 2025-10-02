@@ -5,24 +5,44 @@
   <meta charset="UTF-8">
   <title>Page des musiciens</title>
   <style>
-      body {
-        font-family: sans-serif ;
-    background-color: green;
-	color: white;
-      }	
+    body {
+  	   font-family: sans-serif ;
+ 	   background-color: green;
+	   color: white;
+    }	
 	.song-list {
 		list-style: none;
 	}
 	.title {
-	font-size: x-large;
-	font-weight: bold;
-/*	background-color: darkgreen; */
+		font-size: x-large;
+		font-weight: bold;
 	}
 	header {
-	position: fixed; right: 0; top: 0; background-color: silver; }
-    </style>
-
+		font-family: monospace;
+		position: sticky; 
+		top: 0; 
+		background-color: #040;;
+		padding: 10px;
+		z-index: 1000; /* Assure que l'en-tête reste au-dessus du contenu */
+	}
+	</style>
   <script>
+	//variables globales
+    var items;
+	var search_selectors;
+
+	window.onload = function() {
+		const search_box = document.getElementById('search');
+		search_box.focus();
+		search_box.innerText = "";
+		search_box.value = "";
+	    items = document.querySelectorAll('.song');
+	    search_selectors = [
+  	       '.title', '.artist' , '.song-number'
+	    ];
+	}
+
+	// montre ou cache les chansons selon la recherche
 
 	function filterSongs() {
        const query_string = document.getElementById('search').value.trim().toLowerCase();
@@ -36,13 +56,7 @@
       });
     }
 
-	const items = document.querySelectorAll('.song');
-	const search_selectors = [
-	       '.title', '.artist' , '.song-number'
-	];
-	
   </script>
-
 
 </head>
 
@@ -50,16 +64,16 @@
 <body>
   <header>
 	<div class="search-container">
-	  Actions<hr>
-		   chercher
-    <input id="search" class="search-box" type="search"
-		   placeholder="Rechercher une chanson, un artiste, ... 🎶"
+	  	   Chercher
+    	<input id="search" class="search-box" type="search"
+		   placeholder="une chanson, un artiste, un numéro ... 🎶"
+		   size="30"
 		   oninput="filterSongs()">
 		   <span class="search-icon">🔍</span>
-		   <br>
-		   aller
-		   <a href="#haut"><button>en haut</button></a>
-		   <a href="#bas"><button>en bas</button></a>		   
+		<br>
+		   Aller en
+		   <a href="#haut"><button>haut</button></a>
+		   <a href="#bas"><button>bas</button></a>		   
   </div>
   </header>
 
@@ -81,7 +95,7 @@
 	  <td></td>
 	  <td>{% if song.header.score is defined   %}<a href="{{score_link_dir}}/{{song.header.score | escape}}"><button>&#x1d11e; Partition</button></a> {% endif %}
 {% if song.header.tabs is defined    %}- <a href="{{song.header.tabs | escape}}"><button>&#x1F3B8; Tabs</button></a>{% endif %}
-		<a href="{{lyrics_link_dir}}/{{ song.name.removesuffix('.txt')}}.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="{{lyrics_link_dir}}/{{ song.name.removesuffix('.txt')}}.html"><button>&#x1F4D6; Paroles</button></a>
 	{% if song.header.youtube is defined %} - <a href="{{song.header.youtube}}"><button>YouTube</button></a> {% endif %}
 	<hr/>
 	</td></tr>

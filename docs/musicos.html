@@ -5,24 +5,44 @@
   <meta charset="UTF-8">
   <title>Page des musiciens</title>
   <style>
-      body {
-        font-family: sans-serif ;
-    background-color: green;
-	color: white;
-      }	
+    body {
+  	   font-family: sans-serif ;
+ 	   background-color: green;
+	   color: white;
+    }	
 	.song-list {
 		list-style: none;
 	}
 	.title {
-	font-size: x-large;
-	font-weight: bold;
-/*	background-color: darkgreen; */
+		font-size: x-large;
+		font-weight: bold;
 	}
 	header {
-	position: fixed; right: 0; top: 0; background-color: silver; }
-    </style>
-
+		font-family: monospace;
+		position: sticky; 
+		top: 0; 
+		background-color: #040;;
+		padding: 10px;
+		z-index: 1000; /* Assure que l'en-tête reste au-dessus du contenu */
+	}
+	</style>
   <script>
+	//variables globales
+    var items;
+	var search_selectors;
+
+	window.onload = function() {
+		const search_box = document.getElementById('search');
+		search_box.focus();
+		search_box.innerText = "";
+		search_box.value = "";
+	    items = document.querySelectorAll('.song');
+	    search_selectors = [
+  	       '.title', '.artist' , '.song-number'
+	    ];
+	}
+
+	// montre ou cache les chansons selon la recherche
 
 	function filterSongs() {
        const query_string = document.getElementById('search').value.trim().toLowerCase();
@@ -36,13 +56,7 @@
       });
     }
 
-	const items = document.querySelectorAll('.song');
-	const search_selectors = [
-	       '.title', '.artist' , '.song-number'
-	];
-	
   </script>
-
 
 </head>
 
@@ -50,16 +64,16 @@
 <body>
   <header>
 	<div class="search-container">
-	  Actions<hr>
-		   chercher
-    <input id="search" class="search-box" type="search"
-		   placeholder="Rechercher une chanson, un artiste, ... 🎶"
+	  	   Chercher
+    	<input id="search" class="search-box" type="search"
+		   placeholder="une chanson, un artiste, un numéro ... 🎶"
+		   size="30"
 		   oninput="filterSongs()">
 		   <span class="search-icon">🔍</span>
-		   <br>
-		   aller
-		   <a href="#haut"><button>en haut</button></a>
-		   <a href="#bas"><button>en bas</button></a>		   
+		<br>
+		   Aller en
+		   <a href="#haut"><button>haut</button></a>
+		   <a href="#bas"><button>bas</button></a>		   
   </div>
   </header>
 
@@ -78,7 +92,7 @@
 	  <td></td>
 	  <td><a href="partitions/a_ma_place.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/a_ma_place.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/a_ma_place.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/vOznRtE4fOg"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -95,7 +109,7 @@
 	  <td></td>
 	  <td><a href="partitions/aint_no_sunshine.png"><button>&#x1d11e; Partition</button></a> 
 - <a href="https://tabs.ultimate-guitar.com/tab/bill-withers/aint-no-sunshine-chords-468744"><button>&#x1F3B8; Tabs</button></a>
-		<a href="chansons/aint_no_sunshine.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/aint_no_sunshine.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=YuKfiH0Scao"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -112,7 +126,7 @@
 	  <td></td>
 	  <td><a href="partitions/aline.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/aline.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/aline.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/8wBljj6JQgY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -129,7 +143,7 @@
 	  <td></td>
 	  <td><a href="partitions/amsterdam.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/amsterdam.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/amsterdam.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=V3BSj1cHX-M"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -146,7 +160,7 @@
 	  <td></td>
 	  <td><a href="partitions/bambino.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/bambino.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/bambino.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/YM-xhNVfzkg"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -163,7 +177,7 @@
 	  <td></td>
 	  <td><a href="partitions/bella_ciao.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/bella_ciao.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/bella_ciao.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=0aUav1lx3rA"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -180,7 +194,7 @@
 	  <td></td>
 	  <td><a href="partitions/blowing_the_wind.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/blowing_the_wind.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/blowing_the_wind.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=vWwgrjjIMXA"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -197,7 +211,7 @@
 	  <td></td>
 	  <td><a href="partitions/besame_mucho.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/besame_mucho.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/besame_mucho.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href=""><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -214,7 +228,7 @@
 	  <td></td>
 	  <td><a href="partitions/c_est_la_ouate.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/c_est_la_ouate.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/c_est_la_ouate.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=wSGBwlLSJO8"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -231,7 +245,7 @@
 	  <td></td>
 	  <td><a href="partitions/c_est_si_bon.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/c_est_si_bon.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/c_est_si_bon.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=_UlLidUdP08"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -248,7 +262,7 @@
 	  <td></td>
 	  <td><a href="partitions/cant_help_falling_in_love.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/cant_help_falling_in_love.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/cant_help_falling_in_love.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=vGJTaP6anOU"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -265,7 +279,7 @@
 	  <td></td>
 	  <td><a href="partitions/champs_elysees.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/champs_elysees.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/champs_elysees.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=tDWeLlvYyYU"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -282,7 +296,7 @@
 	  <td></td>
 	  <td><a href="partitions/comme_d_habitude.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/comme_d_habitude.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/comme_d_habitude.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=kJl2ICLpj00"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -299,7 +313,7 @@
 	  <td></td>
 	  <td><a href="partitions/comment_te_dire_adieu.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/comment_te_dire_adieu.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/comment_te_dire_adieu.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/e_IBQXk648A"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -316,7 +330,7 @@
 	  <td></td>
 	  <td><a href="partitions/couleur_cafe.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/couleur_cafe.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/couleur_cafe.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=K3OozfVG4tY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -333,7 +347,7 @@
 	  <td></td>
 	  <td><a href="partitions/couleur_menthe_a_l_eau.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/couleur_menthe_a_l_eau.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/couleur_menthe_a_l_eau.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=iVABEFYi1wo"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -350,7 +364,7 @@
 	  <td></td>
 	  <td><a href="partitions/crazy.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/crazy.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/crazy.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/Qe500eIK1oA"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -367,7 +381,7 @@
 	  <td></td>
 	  <td><a href="partitions/diego_libre_dans_sa_tete.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/diego_libre_dans_sa_tete.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/diego_libre_dans_sa_tete.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=5JHaH1GzAO8"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -384,7 +398,7 @@
 	  <td></td>
 	  <td><a href="partitions/diggin_my_grave.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/diggin_my_grave.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/diggin_my_grave.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=HGgTX6DPkdQ"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -401,7 +415,7 @@
 	  <td></td>
 	  <td><a href="partitions/dirty_old_town.png"><button>&#x1d11e; Partition</button></a> 
 - <a href="https://tabs.ultimate-guitar.com/tab/the-pogues/dirty-old-town-chords-80132"><button>&#x1F3B8; Tabs</button></a>
-		<a href="chansons/dirty_old_town.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/dirty_old_town.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=TWVEJNBlfxo"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -418,7 +432,7 @@
 	  <td></td>
 	  <td><a href="partitions/dommage.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/dommage.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/dommage.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=8AF-Sm8d8yk"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -435,7 +449,7 @@
 	  <td></td>
 	  <td><a href="partitions/dream_a_little_dream_of_me.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/dream_a_little_dream.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/dream_a_little_dream.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=fJwjLYRPxJY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -452,7 +466,7 @@
 	  <td></td>
 	  <td><a href="partitions/ecce_homo.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/ecce_homo.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/ecce_homo.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=MukeH1hWrxY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -469,7 +483,7 @@
 	  <td></td>
 	  <td><a href="partitions/el_viento.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/el_viento.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/el_viento.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=tQ2nl0_boh4"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -486,7 +500,7 @@
 	  <td></td>
 	  <td><a href="partitions/emmenez_moi.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/emmenez_moi.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/emmenez_moi.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=0OrKMaeQUx0"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -503,7 +517,7 @@
 	  <td></td>
 	  <td><a href="partitions/et_moi_et_moi_et_moi.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/et_moi_et_moi_et_moi.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/et_moi_et_moi_et_moi.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/mTj8rizW9Bg"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -520,7 +534,7 @@
 	  <td></td>
 	  <td><a href="partitions/eternal_flame.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/eternal_flame.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/eternal_flame.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=PSoOFn3wQV4"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -537,7 +551,7 @@
 	  <td></td>
 	  <td><a href="partitions/facile.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/facile.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/facile.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/M3F_tZlpyd4"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -554,7 +568,7 @@
 	  <td></td>
 	  <td><a href="partitions/feeling_good.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/feeling_good.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/feeling_good.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=oHs98TEYecM"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -571,7 +585,7 @@
 	  <td></td>
 	  <td><a href="partitions/femme_liberee.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/femme_liberee.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/femme_liberee.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=8WDwvngENn0"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -588,7 +602,7 @@
 	  <td></td>
 	  <td><a href="partitions/fly_me_to_the_moon.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/fly_me_to_the_moon.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/fly_me_to_the_moon.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=ZEcqHA7dbwM"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -605,7 +619,7 @@
 	  <td></td>
 	  <td><a href="partitions/foule_sentimentale.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/foule_sentimentale.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/foule_sentimentale.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/V_SNDGwwGFM"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -622,7 +636,7 @@
 	  <td></td>
 	  <td><a href="partitions/harley_davidson.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/harley_davidson.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/harley_davidson.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=AqZxMjGhhyw"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -639,7 +653,7 @@
 	  <td></td>
 	  <td><a href="partitions/hey_jude.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/hey_jude.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/hey_jude.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=mQER0A0ej0M"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -656,7 +670,7 @@
 	  <td></td>
 	  <td><a href="partitions/honesty.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/honesty.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/honesty.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=SuFScoO4tb0"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -673,7 +687,7 @@
 	  <td></td>
 	  <td><a href="partitions/hotel_california.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/hotel_california.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/hotel_california.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=09839DpTctU"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -690,7 +704,7 @@
 	  <td></td>
 	  <td><a href="partitions/how_insensitive.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/how_insensitive.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/how_insensitive.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=4x2i2GITQ0Y"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -707,7 +721,7 @@
 	  <td></td>
 	  <td><a href="partitions/i_put_a_spell_on_you.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/i_put_a_spell_on_you.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/i_put_a_spell_on_you.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=3TrSMaOZm3Y"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -724,7 +738,7 @@
 	  <td></td>
 	  <td><a href="partitions/i_shot_the_sheriff.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/i_shot_the_sheriff.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/i_shot_the_sheriff.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=zGO8HN1QQdI"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -741,7 +755,7 @@
 	  <td></td>
 	  <td><a href="partitions/i_will_survive.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/i_will_survive.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/i_will_survive.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=6dYWe1c3OyU"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -758,7 +772,7 @@
 	  <td></td>
 	  <td><a href="partitions/il_est_libre_max.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/il_est_libre_max.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/il_est_libre_max.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=98uUxfo_eMw"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -775,7 +789,7 @@
 	  <td></td>
 	  <td><a href="partitions/il_jouait_du_piano_debout.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/il_jouait_du_piano_debout.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/il_jouait_du_piano_debout.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=7l7eXx_8DHY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -792,7 +806,7 @@
 	  <td></td>
 	  <td><a href="partitions/imagine.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/imagine.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/imagine.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/iOs9Osz3UFQ?t=3"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -809,7 +823,7 @@
 	  <td></td>
 	  <td><a href="partitions/j_ai_demande_a_la_lune.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/j_ai_demande_a_la_lune.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/j_ai_demande_a_la_lune.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=KAOmC5qT02w"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -826,7 +840,7 @@
 	  <td></td>
 	  <td><a href="partitions/j_irai_ou_tu_iras.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/j_irai_ou_tu_iras.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/j_irai_ou_tu_iras.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=0J3wIDAaLSU"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -843,7 +857,7 @@
 	  <td></td>
 	  <td><a href="partitions/jardin_d_hiver.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/jardin_d_hiver.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/jardin_d_hiver.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=gFkUVik35U8"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -860,7 +874,7 @@
 	  <td></td>
 	  <td><a href="partitions/je_l_aime_a_mourir.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/je_l_aime_a_mourir.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/je_l_aime_a_mourir.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/WRHZoMq3TXc"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -877,7 +891,7 @@
 	  <td></td>
 	  <td><a href="partitions/je_te_promets.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/je_te_promets.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/je_te_promets.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=-TkrMyXYbik"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -894,7 +908,7 @@
 	  <td></td>
 	  <td><a href="partitions/jolene.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/jolene.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/jolene.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=Ixrje2rXLMA"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -911,7 +925,7 @@
 	  <td></td>
 	  <td><a href="partitions/just_the_two_of_us.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/just_the_two_of_us.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/just_the_two_of_us.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=v8oqbWrP1QY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -928,7 +942,7 @@
 	  <td></td>
 	  <td><a href="partitions/killing_me_softly.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/killing_me_softly.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/killing_me_softly.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=oKOtzIo-uYw"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -945,7 +959,7 @@
 	  <td></td>
 	  <td><a href="partitions/knocking_on_heavens_door.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/knocking_on_heavens_door.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/knocking_on_heavens_door.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=rm9coqlk8fY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -962,7 +976,7 @@
 	  <td></td>
 	  <td><a href="partitions/mon_amant_de_st_jean.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/l_amant_de_st_jean.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/l_amant_de_st_jean.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=_qQeJLSYz_M"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -979,7 +993,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_ballade_de_jim.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_ballade_de_jim.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_ballade_de_jim.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=Eg9YmQqTg3s"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -996,7 +1010,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_bonne_etoile.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_bonne_etoile.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_bonne_etoile.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=wWKk2O4E6Xc"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1013,7 +1027,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_chanson_d_emilie_jolie.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_chanson_d_emilie_jolie.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_chanson_d_emilie_jolie.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/A2X5r6Oe-7M"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1030,7 +1044,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_collegiala.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_colegiala.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_colegiala.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=Bg3pFjbCag0"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1047,7 +1061,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_dame_de_haute_savoie.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_dame_de_haute_savoie.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_dame_de_haute_savoie.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=HdcL3XKIgQE"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1064,7 +1078,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_fille_du_pere_noel.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_fille_du_pere_noel.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_fille_du_pere_noel.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=o_DlemY_PDk"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1081,7 +1095,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_foule.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_foule.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_foule.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=Fgn8gZHJZzA"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1098,7 +1112,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_gadoue.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_gadoue.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_gadoue.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/5F4EZ3XHKsc"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1115,7 +1129,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_javanaise.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_javanaise.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_javanaise.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=51pK2k_Sa4o"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1132,7 +1146,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_symphonie_des_eclairs.png"><button>&#x1d11e; Partition</button></a> 
 - <a href="https://tabs.ultimate-guitar.com/tab/4711379"><button>&#x1F3B8; Tabs</button></a>
-		<a href="chansons/la_symphonie_des_eclairs.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_symphonie_des_eclairs.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=pqo59FkF_5g"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1149,7 +1163,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_vie_en_rose.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_vie_en_rose.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_vie_en_rose.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=rzeLynj1GYM"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1166,7 +1180,7 @@
 	  <td></td>
 	  <td><a href="partitions/la_voix_des_sages.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/la_voix_des_sages.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/la_voix_des_sages.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=pS3rkCJ-_Lo"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1183,7 +1197,7 @@
 	  <td></td>
 	  <td><a href="partitions/lady_modjo.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/lady_modjo.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/lady_modjo.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=fAl1Y59e0cc"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1200,7 +1214,7 @@
 	  <td></td>
 	  <td><a href="partitions/le_chanteur.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/le_chanteur.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/le_chanteur.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=HXdP15Ubu6M"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1217,7 +1231,7 @@
 	  <td></td>
 	  <td><a href="partitions/le_coup_de_soleil.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/le_coup_de_soleil.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/le_coup_de_soleil.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/CIjqKL33TTE"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1234,7 +1248,7 @@
 	  <td></td>
 	  <td><a href="partitions/le_penitencier.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/le_penitencier.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/le_penitencier.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/4NM5Gc0pa-M"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1251,7 +1265,7 @@
 	  <td></td>
 	  <td><a href="partitions/le_sud.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/le_sud.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/le_sud.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=FgxwKEuy-pM"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1268,7 +1282,7 @@
 	  <td></td>
 	  <td><a href="partitions/le_tourbillon_de_la_vie.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/le_tourbillon_de_la_vie.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/le_tourbillon_de_la_vie.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=B4nHBn8zypc"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1285,7 +1299,7 @@
 	  <td></td>
 	  <td><a href="partitions/le_telefon.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/le_telefon.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/le_telefon.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/lDLp2inrQCA"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1302,7 +1316,7 @@
 	  <td></td>
 	  <td><a href="partitions/le_voyage_en_italie.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/le_voyage_en_italie.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/le_voyage_en_italie.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=Fs-iG3-asSQ"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1319,7 +1333,7 @@
 	  <td></td>
 	  <td><a href="partitions/les_cactus.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/les_cactus.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/les_cactus.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/4TlKA4vqAuo"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1336,7 +1350,7 @@
 	  <td></td>
 	  <td><a href="partitions/les_copains_d_abord.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/les_copains_d_abord.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/les_copains_d_abord.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=L9oEcWFjF3M"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1353,7 +1367,7 @@
 	  <td></td>
 	  <td><a href="partitions/les_cornichons.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/les_cornichons.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/les_cornichons.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/lK8e-qY7CbQ"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1370,7 +1384,7 @@
 	  <td></td>
 	  <td><a href="partitions/les_feuilles_mortes.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/les_feuilles_mortes.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/les_feuilles_mortes.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=O1aVWu2rBhE"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1387,7 +1401,7 @@
 	  <td></td>
 	  <td><a href="partitions/les_mots_bleus.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/les_mots_bleus.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/les_mots_bleus.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/-LDi_4VZ_0g"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1404,7 +1418,7 @@
 	  <td></td>
 	  <td><a href="partitions/les_moulins_de_mon_coeur.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/les_moulins_de_mon_coeur.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/les_moulins_de_mon_coeur.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=qsQ0M-DEt2A&t=30s"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1421,7 +1435,7 @@
 	  <td></td>
 	  <td><a href="partitions/les_petits_papiers.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/les_petits_papiers.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/les_petits_papiers.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=OK8xOxuhYMQ"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1438,7 +1452,7 @@
 	  <td></td>
 	  <td><a href="partitions/les_planetes.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/les_planetes.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/les_planetes.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/qcA07gL7WEw"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1455,7 +1469,7 @@
 	  <td></td>
 	  <td><a href="partitions/let_it_be.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/let_it_be.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/let_it_be.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=CGj85pVzRJs"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1472,7 +1486,7 @@
 	  <td></td>
 	  <td><a href="partitions/ma_philosophie.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/ma_philosophie.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/ma_philosophie.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=D38EUIll1pM"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1489,7 +1503,7 @@
 	  <td></td>
 	  <td><a href="partitions/macumba.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/macumba.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/macumba.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/Rd0n3ZL6MeA?si=HMPR_W8JZdR4xFtE"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1506,7 +1520,7 @@
 	  <td></td>
 	  <td><a href="partitions/mangez_moi.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/mangez_moi.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/mangez_moi.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=taOsuVhXqzY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1523,7 +1537,7 @@
 	  <td></td>
 	  <td><a href="partitions/marcia_baila.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/marcia_baila.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/marcia_baila.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=1zWlnzFXcKY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1540,7 +1554,7 @@
 	  <td></td>
 	  <td><a href="partitions/marlene.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/marlene.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/marlene.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=rLIUoex9Hyg"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1557,7 +1571,7 @@
 	  <td></td>
 	  <td><a href="partitions/mon_fils_ma_bataille.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/mon_fils_ma_bataille.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/mon_fils_ma_bataille.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=U6HI__YOhe4"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1574,7 +1588,7 @@
 	  <td></td>
 	  <td><a href="partitions/mourir_sur_scene.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/mourir_sur_scene.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/mourir_sur_scene.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=X16fYEugii4"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1591,7 +1605,7 @@
 	  <td></td>
 	  <td><a href="partitions/my_heart_will_go_on.png"><button>&#x1d11e; Partition</button></a> 
 - <a href="https://tabs.ultimate-guitar.com/tab/celine-dion/my-heart-will-go-on-chords-1050636"><button>&#x1F3B8; Tabs</button></a>
-		<a href="chansons/my_heart_will_go_on.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/my_heart_will_go_on.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=9bFHsd3o1w0"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1608,7 +1622,7 @@
 	  <td></td>
 	  <td><a href="partitions/comme_d_habitude.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/my_way.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/my_way.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/qQzdAsjWGPg"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1625,7 +1639,7 @@
 	  <td></td>
 	  <td><a href="partitions/natural_mystic.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/natural_mystic.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/natural_mystic.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=UZfaIx57UqU"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1642,7 +1656,7 @@
 	  <td></td>
 	  <td><a href="partitions/new_york_avec_toi.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/new_york_avec_toi.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/new_york_avec_toi.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=aWROzt7kudk"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1659,7 +1673,7 @@
 	  <td></td>
 	  <td><a href="partitions/no_woman_no_cry.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/no_woman_no_cry.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/no_woman_no_cry.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=mZ6VezKMoRY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1676,7 +1690,7 @@
 	  <td></td>
 	  <td><a href="partitions/partenaire_particulier.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/partenaire_particulier.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/partenaire_particulier.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=ccSPZZ2AKXY"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1693,7 +1707,7 @@
 	  <td></td>
 	  <td><a href="partitions/pas_assez_de_toi.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/pas_assez_de_toi.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/pas_assez_de_toi.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=OSvklUkAVk8"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1710,7 +1724,7 @@
 	  <td></td>
 	  <td><a href="partitions/pas_de_boogie_woogie.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/pas_de_boogie_woogie.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/pas_de_boogie_woogie.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=EEbOMyB2YJQ"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1727,7 +1741,7 @@
 	  <td></td>
 	  <td><a href="partitions/pendant_que_les_champs_brulent.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/pendant_que_les_champs_brulent.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/pendant_que_les_champs_brulent.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=NTVvmCAEg3A"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1744,7 +1758,7 @@
 	  <td></td>
 	  <td><a href="partitions/porque_te_vas.png"><button>&#x1d11e; Partition</button></a> 
 - <a href="https://es.ultimate-guitar.com/tab/jeanette/porque-te-vas-chords-616821"><button>&#x1F3B8; Tabs</button></a>
-		<a href="chansons/porque_te_vas.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/porque_te_vas.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=TjUhXbGdLYo"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1761,7 +1775,7 @@
 	  <td></td>
 	  <td><a href="partitions/pour_que_tu_m_aimes_encore.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/pour_que_tu_m_aimes_encore.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/pour_que_tu_m_aimes_encore.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=AzaTyxMduH4"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1778,7 +1792,7 @@
 	  <td></td>
 	  <td><a href="partitions/quand_la_musique_est_bonne.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/quand_la_musique_est_bonne.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/quand_la_musique_est_bonne.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href=""><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1795,7 +1809,7 @@
 	  <td></td>
 	  <td><a href="partitions/redemption_song.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/redemption_song.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/redemption_song.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=kOFu6b3w6c0"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1812,7 +1826,7 @@
 	  <td></td>
 	  <td><a href="partitions/rock_amadour.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/rock_amadour.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/rock_amadour.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/kom_ksiXZ3k"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1829,7 +1843,7 @@
 	  <td></td>
 	  <td><a href="partitions/s_il_suffisait_d_aimer.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/s_il_suffisait_qu_on_s_aime.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/s_il_suffisait_qu_on_s_aime.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=2vmHANYQcVw"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1846,7 +1860,7 @@
 	  <td></td>
 	  <td><a href="partitions/santiano.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/santiano.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/santiano.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=VQd1IOyhKS4"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1863,7 +1877,7 @@
 	  <td></td>
 	  <td><a href="partitions/sarbacane.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/sarbacane.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/sarbacane.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=qlGoCN9EqWI"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1880,7 +1894,7 @@
 	  <td></td>
 	  <td><a href="partitions/shallow.png"><button>&#x1d11e; Partition</button></a> 
 - <a href="https://tabs.ultimate-guitar.com/tab/misc-soundtrack/a-star-is-born-shallow-chords-2480119"><button>&#x1F3B8; Tabs</button></a>
-		<a href="chansons/shallow.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/shallow.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=bo_efYhYU2A"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1897,7 +1911,7 @@
 	  <td></td>
 	  <td><a href="partitions/sing_sing.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/sing_sing_song.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/sing_sing_song.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=E7dV8NIfHmU"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1914,7 +1928,7 @@
 	  <td></td>
 	  <td><a href="partitions/soulman.png"><button>&#x1d11e; Partition</button></a> 
 - <a href="https://ultimate-guitar.com/tab/ben-loncle-soul/soulman-chords-1715034"><button>&#x1F3B8; Tabs</button></a>
-		<a href="chansons/soulman.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/soulman.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=69ptYXvUo7M"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1931,7 +1945,7 @@
 	  <td></td>
 	  <td><a href="partitions/stand_by_your_man.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/stand_by_your_man.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/stand_by_your_man.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=AM-b8P1yj9w"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1948,7 +1962,7 @@
 	  <td></td>
 	  <td><a href="partitions/summertime.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/summertime.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/summertime.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=u2bigf337aU"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1965,7 +1979,7 @@
 	  <td></td>
 	  <td><a href="partitions/sunny.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/sunny.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/sunny.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/mVhy7JPqM7A"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1982,7 +1996,7 @@
 	  <td></td>
 	  <td><a href="partitions/sweet_dreams.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/sweet_dreams.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/sweet_dreams.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/qeMFqkcPYcg"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -1999,7 +2013,7 @@
 	  <td></td>
 	  <td><a href="partitions/sweet_home_chicago.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/sweet_home_chicago.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/sweet_home_chicago.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/g5WjzkGXz5w"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2016,7 +2030,7 @@
 	  <td></td>
 	  <td><a href="partitions/sympathique.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/sympathique.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/sympathique.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=ANVQScgIeag"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2033,7 +2047,7 @@
 	  <td></td>
 	  <td><a href="partitions/the_girl_from_ipanema.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/the_girl_from_ipanema.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/the_girl_from_ipanema.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=c5QfXjsoNe4"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2050,7 +2064,7 @@
 	  <td></td>
 	  <td><a href="partitions/the_house_of_the_rising_sun.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/the_house_of_the_rising_sun.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/the_house_of_the_rising_sun.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/N4bFqW_eu2I"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2067,7 +2081,7 @@
 	  <td></td>
 	  <td><a href="partitions/the_letter.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/the_letter.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/the_letter.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=HIWY8UyW9bw"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2084,7 +2098,7 @@
 	  <td></td>
 	  <td><a href="partitions/these_boots_are_made_for_walking.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/these_boots_are_made_for_walking.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/these_boots_are_made_for_walking.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=GM1kzbAgo_E"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2101,7 +2115,7 @@
 	  <td></td>
 	  <td><a href="partitions/tout_le_bonheur_du_monde.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/tout_le_bonheur_du_monde.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/tout_le_bonheur_du_monde.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=dGBQUcQZmYQ"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2118,7 +2132,7 @@
 	  <td></td>
 	  <td><a href="partitions/toute_la_pluie.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/toute_la_pluie.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/toute_la_pluie.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=gLDdItOf5rA"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2135,7 +2149,7 @@
 	  <td></td>
 	  <td><a href="partitions/vieille_canaille.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/vieille_canaille.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/vieille_canaille.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/bSdqgV-hLow"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2152,7 +2166,7 @@
 	  <td></td>
 	  <td><a href="partitions/walk_like_an_egyptian.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/walk_like_an_egyptian.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/walk_like_an_egyptian.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=JA0VfqtIK_A"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2169,7 +2183,7 @@
 	  <td></td>
 	  <td><a href="partitions/walk_on_wild_side.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/walk_on_the_wild_side.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/walk_on_the_wild_side.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=oG6fayQBm9w"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2186,7 +2200,7 @@
 	  <td></td>
 	  <td><a href="partitions/what_s_up.png"><button>&#x1d11e; Partition</button></a> 
 - <a href="https://tabs.ultimate-guitar.com/tab/4-non-blondes/whats-up-chords-349210"><button>&#x1F3B8; Tabs</button></a>
-		<a href="chansons/what_s_up.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/what_s_up.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=6NXnxTNIWkc"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2203,7 +2217,7 @@
 	  <td></td>
 	  <td><a href="partitions/wish_you_where_here.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/wish_you_where_here.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/wish_you_where_here.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=3j8mr-gcgoI"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2220,7 +2234,7 @@
 	  <td></td>
 	  <td><a href="partitions/yesterday.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/yesterday.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/yesterday.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://youtu.be/NrgmdOz227I"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
@@ -2237,7 +2251,7 @@
 	  <td></td>
 	  <td><a href="partitions/you_know_i_am_no_good.png"><button>&#x1d11e; Partition</button></a> 
 
-		<a href="chansons/you_know_i_am_no_good.html"><button>&#x1F56E; Paroles</button></a>
+		<a href="chansons/you_know_i_am_no_good.html"><button>&#x1F4D6; Paroles</button></a>
 	 - <a href="https://www.youtube.com/watch?v=b-I2s5zRbHg"><button>YouTube</button></a> 
 	<hr/>
 	</td></tr>
