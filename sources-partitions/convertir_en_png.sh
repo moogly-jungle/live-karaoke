@@ -10,5 +10,5 @@ PARTITIONS=../docs/partitions
 if [ $# == 0 ] ; then
 	echo "Usage :   $0  f1 f2 ..." >&1
 else
-	libreoffice --convert-to png --outdir ${PARTITIONS} "$@"
+	libreoffice --view --convert-to png --outdir ${PARTITIONS} "$@"
 fi
