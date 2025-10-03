@@ -1,6 +1,9 @@
 titre: Mamy Blue
 artiste: Nicoletta
 youtube: https://youtu.be/sVCi8t-E_R8
+notes: Intro 4 mesures: orgue accord tenu (D-)
+notes: +                basse rock  𝄆 𝅘𝅥.𝅘𝅥𝅮 𝅗𝅥 𝄀 𝅘𝅥.𝅘𝅥𝅮 𝅗𝅥 𝄇
+notes: +                guitare sur temps 2 et 4
 partition: mamy_blue.png
 paroles:
 (Oh Mamy ! Oh Mamy, Mamy blue

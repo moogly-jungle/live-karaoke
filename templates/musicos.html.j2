@@ -28,6 +28,10 @@
 	.songs {
 		margin-top: 5em;
 	}
+	.notes {
+	    background-color: orange;
+	    color: black;
+	}
   </style>
   <script>
 	//variables globales
@@ -89,7 +93,8 @@
 		  </td>
 		</tr>
 		{% if song.header.notes is defined   %}
-		<tr><td/><td><span class="notes">{{song.header.notes | escape}}</span></td></tr>{% endif %}
+		  <tr><td/><td><pre class="notes">{{song.header.notes | escape}}
+</pre></td></tr>{% endif %}
 		<tr>
 		  <td></td>
 		  <td>
