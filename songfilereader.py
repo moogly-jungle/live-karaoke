@@ -14,7 +14,8 @@ class Song:
     lyrics: list[str]
 
 
-allowed_tags  = ['title', 'score', 'artist', 'youtube', 'tabs', 'lyrics']
+allowed_tags  = ['title', 'artist', 'score',
+                 'youtube', 'tabs', 'lyrics', 'notes']
 required_tags = ['title', 'artist', 'score' ]
 
 tag_aliases = {
@@ -55,7 +56,11 @@ class SongFileReader:
                    raise SongReaderError(f'unknown tag "{tag}" line {line_no}\n---')
                 if tag == "lyrics":
                    break
-                header[tag] = value
+                # allow repeated tags
+                if tag in header:
+                    header[tag] = f'{header[tag]}\n{value}'
+                else:
+                    header[tag] = value
             except ValueError:
                 raise SongReaderError(f'tag error line {line_no}\n---')
         for tag in required_tags:
