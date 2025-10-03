@@ -157,7 +157,6 @@
 {% if song.header.youtube is defined %}- <a href="{{song.header.youtube}}">YouTube</a> {% endif %}
 {% if song.header.score is defined   %}- <a href="{{score_link_dir}}/{{song.header.score | escape}}">Partition</a> {% endif %}
 {% if song.header.tabs is defined    %}- <a href="{{song.header.tabs | escape}}">Tabs</a>{% endif %}
-{% if song.header.notes is defined   %}- <span class="notes">{{song.header.notes | escape}}</span>{% endif %}
 </li>
      {% endfor %}
   </ul>

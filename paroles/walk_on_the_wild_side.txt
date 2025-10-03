@@ -1,7 +1,11 @@
 titre: Walk on the wild side
 artiste: Lou Reed
 youtube: https://www.youtube.com/watch?v=oG6fayQBm9w
-partition: walk_on_wild_side.png
+partition: walk_on_the_wild_side.png
+notes: couplet | C    | F    |  C  | F  |
+notes: +       | C D- | F D- |
+notes: +       | C    | F    |  C  | F  |
+notes: pont    | C    | F    |  C  | F  |        
 paroles:
 
 Holly came from Miami, F-L-A
