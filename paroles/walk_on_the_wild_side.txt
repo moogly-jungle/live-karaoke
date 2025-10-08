@@ -1,4 +1,4 @@
-titre: Walk on the wild side
+titre: Walk On The Wild Side
 artiste: Lou Reed
 youtube: https://www.youtube.com/watch?v=oG6fayQBm9w
 partition: walk_on_the_wild_side.png

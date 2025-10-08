@@ -1,4 +1,4 @@
-titre: A Ma Place
+titre: A ma place
 artiste: Axel Bauer / Zazie
 partition: a_ma_place.png
 youtube: https://youtu.be/vOznRtE4fOg

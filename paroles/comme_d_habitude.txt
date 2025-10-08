@@ -1,4 +1,4 @@
-titre: Comme d'habitude
+titre: Comme d'Habitude
 artiste: Claude François
 youtube: https://www.youtube.com/watch?v=kJl2ICLpj00
 partition: comme_d_habitude.png
