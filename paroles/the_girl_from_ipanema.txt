@@ -1,4 +1,4 @@
-titre: The Girl from Ipanema
+titre: The Girl From Ipanema
 artiste: Tom Jobim et Vinicius Moraes
 youtube: https://www.youtube.com/watch?v=c5QfXjsoNe4
 partition: the_girl_from_ipanema.png

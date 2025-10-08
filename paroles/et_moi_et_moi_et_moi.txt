@@ -1,4 +1,4 @@
-titre: Et moi, et moi, et moi
+titre: Et Moi, Et Moi, Et Moi
 artiste: Jacques Dutronc
 youtube: https://youtu.be/mTj8rizW9Bg     
 partition: et_moi_et_moi_et_moi.png
