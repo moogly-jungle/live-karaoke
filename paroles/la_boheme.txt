@@ -1,5 +1,7 @@
 titre: La Bohème
 artist: Charles Aznavour
+youtube: https://www.youtube.com/watch?v=fVfnEyLOkrM
+partition: la_boheme.png
 paroles:
 Je vous parle d'un temps
 Que les moins de vingt ans
