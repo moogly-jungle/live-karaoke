@@ -1,6 +1,6 @@
 titre: La tendresse
 artist: Bourvil
-youtube: https:/https://www.youtube.com/watch?v=wEhw9AMYOoA
+youtube: https://www.youtube.com/watch?v=wEhw9AMYOoA
 partition: la_tendresse.png
 paroles:
 On peut vivre sans richesses
