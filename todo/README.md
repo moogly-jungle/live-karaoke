@@ -8,7 +8,7 @@ Les enlever d'ici quand ils sont prêts
 - Still Loving You 
 - Belle 
 - Allumer le feu 
-- Toute la musique que j'aime...
+
 
 
 # faits, à vérifier
@@ -18,3 +18,6 @@ Les enlever d'ici quand ils sont prêts
 - You never can tell (Pulp Fiction) 
 - Creep 
 - Stand by me 
+- Toute la musique que j'aime...
+- Tout doucement
+- Super nana
