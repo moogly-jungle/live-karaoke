@@ -1,6 +1,6 @@
 titre: Tout Doucement
 artiste: Bibie
-youtube: https://www.youtube.com/watch?v=wEhw9AMYOoA
+youtube: https://youtu.be/hZkLSz-4ZHk
 partition: tout_doucement.png
 paroles:
 Tout doucement
