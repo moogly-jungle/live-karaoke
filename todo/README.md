@@ -4,10 +4,19 @@ Les enlever d'ici quand ils sont prêts
 
 # Liste de trucs à ajouter
 
+## Noel
+
+- Petit garçon, 
+- Let it Snow, 
+- Rocking around the Christmas tree, 
+- Vive le vent/Jingle bells
+
+## Karacoll
 
 - Still Loving You 
 - Belle 
-
+- Les enfants du Pirée, 
+- Volare
 
 
 # faits, à vérifier
