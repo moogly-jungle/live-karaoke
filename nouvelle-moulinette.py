@@ -49,6 +49,7 @@ def latex_escape(text):
     text = text.replace('{', '\\{')
     text = text.replace('}', '\\}')
     text = text.replace('$', '\\$')
+    text = text.replace('&', '\\&')    
     return text
 
 jinja2.filters.FILTERS['latex_escape'] = latex_escape
