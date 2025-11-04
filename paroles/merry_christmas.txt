@@ -1,5 +1,5 @@
 titre: Merry Christmas
-artiste: Ed Sheeran et Elton John
+artiste: Ed Sheeran & Elton John
 youtube: https://youtu.be/Q_yuO8UNGmY
 partition: merry_christmas.png
 paroles:

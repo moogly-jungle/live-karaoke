@@ -1,11 +1,11 @@
 #
 
-# compile la liste  en mlatex et met le pdf dans /docs
+# compile la liste  en latex et met le pdf dans /docs
 
 if ! which -s xelatex ; then
 	cat <<AAA
 ALERTE
-cho on a besoin de la commande xelatex
+On a besoin de la commande xelatex
 pour compiler le source.
 (package texlive de debian)
 AAA
