@@ -6,10 +6,6 @@ Les enlever d'ici quand ils sont prêts
 
 ## Noel
 
-
-- Rocking around the Christmas tree, 
-
-
 ## Karacoll
 
 - Still Loving You 
@@ -32,3 +28,4 @@ Les enlever d'ici quand ils sont prêts
 - Let it Snow, 
 - Vive le vent/Jingle bells
 - Petit garçon
+- Rocking around the Christmas tree, 
