@@ -1,6 +1,6 @@
 titre: Macumba
 artiste: Jean-Pierre Mader
-youtube: https://youtu.be/Rd0n3ZL6MeA?si=HMPR_W8JZdR4xFtE
+youtube: https://youtu.be/Rd0n3ZL6MeA
 partition: macumba.png
 paroles:
 [Intro basse puis synthé 2x8 mesures]

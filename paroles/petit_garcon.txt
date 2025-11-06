@@ -1,0 +1,35 @@
+titre: Petit garçon
+artiste: Graeme Allwright
+partition: petit_garcon.png
+youtube: https://youtu.be/zTZ40A4kqmY
+paroles:
+[Couplet 1]
+Dans son manteau rouge et blanc
+Sur un traîneau porté par le vent
+Il descendra par la cheminée
+Petit garçon, il est l'heure d'aller se coucher
+
+[Refrain]
+Tes yeux se voilent
+Ecoute les étoiles
+Tout est calme, reposé
+Entends-tu les clochettes tintinnabuler ?
+
+[Couplet 2]
+Et demain matin petit garçon
+Tu trouveras dans tes chaussons
+Tous les jouets dont tu as rêvés
+Petit garçon il est l'heure d'aller se coucher
+
+[Refrain]
+Tes yeux se voilent
+Ecoute les étoiles
+Tout est calme, reposé
+Entends-tu les clochettes tintinnabuler ?
+
+[Couplet 3]
+Et demain matin petit garçon
+Tu trouveras dans tes chaussons
+Tous les jouets dont tu as rêvés
+Petit garçon il est l'heure d'aller se coucher...
+

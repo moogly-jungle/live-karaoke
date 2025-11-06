@@ -4,10 +4,18 @@ Les enlever d'ici quand ils sont prêts
 
 # Liste de trucs à ajouter
 
+## Noel
+
+
+- Rocking around the Christmas tree, 
+
+
+## Karacoll
 
 - Still Loving You 
 - Belle 
-
+- Les enfants du Pirée, 
+- Volare
 
 
 # faits, à vérifier
@@ -21,3 +29,6 @@ Les enlever d'ici quand ils sont prêts
 - Tout doucement
 - Super nana
 - Allumer le feu 
+- Let it Snow, 
+- Vive le vent/Jingle bells
+- Petit garçon
