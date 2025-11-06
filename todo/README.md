@@ -7,9 +7,8 @@ Les enlever d'ici quand ils sont prêts
 ## Noel
 
 - Petit garçon, 
-- Let it Snow, 
 - Rocking around the Christmas tree, 
-- Vive le vent/Jingle bells
+
 
 ## Karacoll
 
@@ -30,3 +29,5 @@ Les enlever d'ici quand ils sont prêts
 - Tout doucement
 - Super nana
 - Allumer le feu 
+- Let it Snow, 
+- Vive le vent/Jingle bells
