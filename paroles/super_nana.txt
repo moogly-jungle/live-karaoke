@@ -1,7 +1,7 @@
 titre: Super Nana
 artiste: Michel Jonasz, JC Vannier
 youtube: https://www.youtube.com/watch?v=m-RreLsLZNs
-partition: super-nana.png
+partition: super_nana.png
 paroles:
 
 Dix-huit grèves de poubelles
