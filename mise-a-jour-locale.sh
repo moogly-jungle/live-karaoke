@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 # génération des fichiers localement
 # - ne s'occupe pas du git
