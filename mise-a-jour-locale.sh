@@ -7,7 +7,8 @@
 
 (
 	cd sources-partitions
-	./convertir_nouvelles_partitions.sh
+	# ./convertir_nouvelles_partitions.sh
+	make
 )
 python3 verifier-paroles.py
 # python3 moulinette.py

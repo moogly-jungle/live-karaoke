@@ -2,6 +2,7 @@ titre: Le Téléfon
 artiste: Nino Ferrer
 partition: le_telefon.png
 youtube: https://youtu.be/lDLp2inrQCA
+tabs: https://www.boiteachansons.net/partitions/nino-ferrer/le-telefon
 paroles:
 Bernadette, elle est très chouette
 Et sa cousine, elle est divine
