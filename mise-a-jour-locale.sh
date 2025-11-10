@@ -13,7 +13,7 @@
 python3 verifier-paroles.py
 # python3 moulinette.py
 
-rm docs/paroles/*.html
+rm docs/chansons/*.html
 python3 nouvelle-moulinette.py
 ./compiler-liste-latex.sh
 
