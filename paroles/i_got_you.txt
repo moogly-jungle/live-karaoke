@@ -1,5 +1,5 @@
 titre: I Got You (I Feel Good)
-artiste: James Brows
+artiste: James Brown
 youtube: https://music.youtube.com/watch?v=iSLwVaebsJg
 partition: i_got_you.png
 paroles:
