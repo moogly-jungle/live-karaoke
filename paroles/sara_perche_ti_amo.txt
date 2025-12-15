@@ -1,7 +1,7 @@
 titre: Sarà perché ti amo
 artiste: Ricchi e Poveri
 youtube: https://www.youtube.com/watch?v=Nn1IeHL5DHY
-partition: sara_perche_ti_amo.png
+partition: sara_perche_ti_amo_F.png
 paroles:
 Che confusione, sarà perché ti amo
 È un'emozione che cresce piano piano
