@@ -71,8 +71,8 @@ def generate_list(result_path, template_path, songs):
                                 score_link_dir=score_link_dir))
     # print('- list done')
     
-generate_list('docs/chansons.txt', 'liste.txt.j2', songs)
-generate_list('docs/chansons.csv', 'simple.csv.j2', songs)
+# generate_list('docs/chansons.txt', 'liste.txt.j2', songs)
+# generate_list('docs/chansons.csv', 'simple.csv.j2', songs)
 generate_list("docs/chansons.html", 'public-list.html.j2', songs)
 generate_list('latex/liste.tex', 'liste.tex.j2', songs)
 generate_list('docs/musicos.html', 'musicos.html.j2', songs)
