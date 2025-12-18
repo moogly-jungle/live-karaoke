@@ -4,6 +4,8 @@ partition: aline.png
 youtube: https://youtu.be/8wBljj6JQgY
 paroles:
 
+Intro --------------- Instrumental
+
 J'avais dessiné sur le sable
 Son doux visage qui me souriait
 Puis il a plu sur cette plage
@@ -15,10 +17,9 @@ Oh j'avais trop de peine
 
 Je me suis assis auprès de son âme
 Mais la belle dame s'était enfuie
-Et je l'ai cherchée sans plus y croire
+Je l'ai cherchée sans plus y croire
 Et sans un espoir pour me guider
 
-He
 Et j'ai crié, crié "Aline!" pour qu'elle revienne
 Et j'ai pleuré, pleuré
 Oh j'avais trop peine
@@ -31,7 +32,7 @@ Et j'ai pleuré, oh, pleuré
 Oh, oh j'avais trop de peine
 
 Et j'ai crié, crié "Aline!" pour qu'elle revienne
-Et j'ai pleuré, pleuré, pleuré
+Et j'ai pleuré, pleuré, 
 Oh j'avais trop de peine
 
 Et j'ai crié "Aline! Aline! Aline!
