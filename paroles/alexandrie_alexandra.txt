@@ -3,6 +3,8 @@ artiste: Claude François
 partition: alexandrie_alexandra.png
 youtube: https://music.youtube.com/watch?v=ZRaOzXS1slI
 paroles:
+
+Intro -----------Instrumental
  
 Rah! Ah!
 Rah! Ah!
@@ -34,7 +36,7 @@ Alexandra, Alexandrie
 Alexandrie où tout commence et tout finit
 
 J'ai plus d'appétit qu'un barracuda (barracuda)
-Je te mangerai crue si tu me reiens pas
+Je te mangerai crue si tu me reviens pas
 Je te mangerai crue si tu me retiens pas
 
 Alexandrie, Alexandra
