@@ -3,6 +3,9 @@ artiste: RadioHead
 partition: creep.png
 youtube: hthttps://www.youtube.com/watch?v=XFkzRNyygfk
 paroles:
+
+------------------Intro Guitare
+
 When you were here before
 Couldn't look you in the eyes
 You're just like an angel
@@ -23,7 +26,7 @@ I wanna have control
 I want a perfect body
 I want a perfect soul
 
-I want you to notice
+I want you to noti-i-ice
 When I'm not around
 You're so fuckin' special
 I wish I was special

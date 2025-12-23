@@ -3,6 +3,12 @@ artiste: Serge Gainsbourg
 youtube: https://www.youtube.com/watch?v=K3OozfVG4tY
 partition: couleur_cafe.png
 paroles:
+
+
+--------------Intro percussions et basse
+
+
+
 J'aime ta couleur café
 Tes cheveux café
 Ta gorge café
@@ -26,6 +32,9 @@ Ce soir, la nuit sera blanche
 
 (Couleur café)
 (Que j'aime ta couleur café)
+
+-----------------Pont instrumental
+
 
 L'amour, sans philosopher
 C'est comme le café

@@ -3,6 +3,9 @@ artiste: Elvis Presley
 partition: cant_help_falling_in_love.png
 youtube: https://www.youtube.com/watch?v=vGJTaP6anOU
 paroles:
+
+------------    Intro 
+
 Wise men say, only fools rush in   
 but I can't help, falling in love with you
 Shall I stay, would it be a sin     
@@ -20,4 +23,5 @@ darling so it goes
 some things are meant to be
 
 Take my hand, take my whole life too
+for I can't help, falling in love with you  
 for I can't help, falling in love with you  

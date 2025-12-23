@@ -3,6 +3,9 @@ artist: Serge Gainsbourg
 partition: comic_strip.png
 youtube: https://www.youtube.com/watch?v=ncNun_ZiFvk
 paroles:
+
+-------------------Intro guitare
+
 Viens petite fille dans mon comic strip
 Viens faire des bulles, viens faire des WIP !
 Des CLIP ! CRAP ! des BANG ! des VLOP ! et

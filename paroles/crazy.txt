@@ -3,6 +3,9 @@ artiste: Gnarls Barkley
 partition: crazy.png
 youtube: https://youtu.be/Qe500eIK1oA
 paroles:
+
+------------ Intro basse
+
 I remember when, I remember, I remember when I lost my mind
 There was something so pleasant about that place.
 Even your emotions had an echo
@@ -42,9 +45,10 @@ Ever since I was little, ever since I was little it looked like fun
 And it's no coincidence I've come
 And I can die when I'm done
 
-Maybe I'm crazy
+But Maybe I'm crazy
 Maybe you're crazy
 Maybe we're crazy
 Probably
 
-Uh, uh
+Ooh, ooh, ooh
+
