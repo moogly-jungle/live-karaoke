@@ -3,6 +3,9 @@ artiste: Françoise Hardy
 youtube: https://youtu.be/e_IBQXk648A
 partition: comment_te_dire_adieu.png
 paroles:
+
+--------------Intro instrumental
+
 Sous aucun prétexte
 Je ne veux
 Avoir de réflexes
@@ -19,8 +22,9 @@ Je suis bien perplexe
 Je ne veux
 Me résoudre aux adieux
 
-Je sais bien qu'un ex-amour n'a pas de chance, ou si peu
-Mais pour moi une explication vaudrait mieux
+-------- Parlé
+Je sais bien qu'un ex-     amour n'a pas de chance, ou si peu
+Mais pour moi une ex-      plication vaudrait mieux
 
 Sous aucun prétexte
 Je ne veux
@@ -31,8 +35,11 @@ Comment te dire adieu
 
 Comment te dire adieu
 
-Tu as mis à l'index, nos nuits blanches, nos matins gris-bleu
-Mais pour moi une explication vaudrait mieux
+-------- Parlé
+
+Tu as mis à l'index,       nos nuits blanches, nos matins gris-bleu
+Mais pour moi une ex-      plication vaudrait mieux
+
 
 Sous aucun prétexte
 Je ne veux
