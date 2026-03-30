@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta name="generator" content=
-  "HTML Tidy for HTML5 for Linux version 5.8.0">
-  <!-- template public-list.html.j2 -->
-  <meta charset="utf-8">
-  <meta name="viewport" content=
-  "width=device-width,initial-scale=1.0">
-  <title>Autres chansons</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-      body {
+   body {
         font-family: 'Arial', sans-serif;
         margin: 0;
         padding: 0;
@@ -120,46 +108,9 @@
         font-size: 20px;
         pointer-events: none; /* pour que l'icone ne bloque pas le clic dans le champ */
       }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="resources/logo-karacoll.jpeg" alt="logo KaraColl">
-    <h1>KaraColl</h1>
-  </header>
-  <div class="intro">
-    <p>🎤 <strong>Le collectif Karaoké</strong> :)<br>
-    Ils jouent, <strong>vous chantez</strong> ! 🎶</p>
-    <!-- annonce ici -->
-    <ul class="sans-puce song-list">
-      <li>
-        <span class="song-number">1</span>.
-		<a href=
-        "chansons/dans_les_yeux_d_emilie.html"><span class=
-        "title">Dans Les Yeux d'Emilie</span></a> - <span class=
-        "artist">Joe Dassin</span> - <a href=
-        "partitions/dans_les_yeux_d_emilie.png">Partition</a>
-      </li>
 
-	    <li>
-        <span class="song-number">2</span>.
-		<a href=
-        "chansons/partenaire_particulier.html"><span class=
-        "title">Partenaire particulier</span></a> - <span class=
-        "artist">Fettweis Sudreau</span> - <a href=
-        "partitions/partenaire_particulier.png">Partition</a>
-      </li>
-	    <li>
-
-          <span class="song-number">3</span>.
-		<a href=
-        "chansons/la_pena_baiona.html"><span class=
-        "title">La Pena Baiona</span></a> - <span class=
-        "artist">Aviron Bayonnais</span> - <a href=
-        "partitions/la_pena_baiona.png">Partition</a>
-      </li>
-	
-    </ul>
-  </div>
-</body>
-</html>
+	  .link {
+		  display:block;
+		  text-align:center;
+		  margin:30px; 
+	  }

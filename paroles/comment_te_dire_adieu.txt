@@ -4,7 +4,7 @@ youtube: https://youtu.be/e_IBQXk648A
 partition: comment_te_dire_adieu.png
 paroles:
 
---------------Intro instrumental
+[ Intro :  instrumental ]
 
 Sous aucun prétexte
 Je ne veux
@@ -22,9 +22,11 @@ Je suis bien perplexe
 Je ne veux
 Me résoudre aux adieux
 
--------- Parlé
-Je sais bien qu'un ex-     amour n'a pas de chance, ou si peu
-Mais pour moi une ex-      plication vaudrait mieux
+[ Parlé ]
+Je sais bien qu'un ex-
+amour n'a pas de chance, ou si peu
+Mais pour moi une ex-
+plication vaudrait mieux
 
 Sous aucun prétexte
 Je ne veux
@@ -37,8 +39,10 @@ Comment te dire adieu
 
 -------- Parlé
 
-Tu as mis à l'index,       nos nuits blanches, nos matins gris-bleu
-Mais pour moi une ex-      plication vaudrait mieux
+Tu as mis à l'index,
+nos nuits blanches, nos matins gris-bleu
+Mais pour moi une ex-
+plication vaudrait mieux
 
 
 Sous aucun prétexte

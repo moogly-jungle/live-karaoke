@@ -4,7 +4,7 @@ youtube: https://www.youtube.com/watch?v=vWwgrjjIMXA
 partition: blowin_in_the_wind.png 
 paroles:
 
-Into ----------- Boucle guitare
+[ Introduction en boucle à la guitare ]
 
 How many roads must a man walk down
 Before you call him a man
@@ -17,7 +17,7 @@ The answer, my friend, is blowing in the wind
 The answer is blowing in the wind
 
 
-----------Pont instrumental
+[ Pont instrumental ]
 
 Yes, and how many years can a mountain exist
 Before it is washed to the sea
@@ -29,7 +29,7 @@ And pretend that he just doesn't see
 The answer, my friend, is blowing in the wind
 The answer is blowing in the wind
 
-----------Pont instrumental
+[ Pont instrumental ]
 
 
 Yes, and how many times must a man look up

@@ -3,9 +3,10 @@ artiste: Hervé Vilard
 youtube: https://youtu.be/4TP3u0rNkys?si=NL9c9mZ475JaYrMN
 partition: capri_c_est_fini.png
 paroles:
------------- Intro    Basse
 
-[
+[ Intro à la Basse ]
+
+
 Nous n'irons plus jamais où tu m'as dis je t'aime
 Nous n'irons plus jamais tu viens de décider
 Nous n'irons plus jamais ce soir c'est plus la peine
@@ -34,7 +35,7 @@ Du premier rendez-vous que tu m'avais donné
 Nous n'irons plus jamais comme les autres années
 Nous n'irons plus jamais plus jamais plus jamais.  
 
-------------- Changement de ton 1/2 ton
+[ Changement de tonalité : + 1/2 ton ]
 
 CAPRI c'est fini et dire que c'était la ville de mon premier amour
 CAPRI c'est fini je ne crois pas que j'y retournerai un jour

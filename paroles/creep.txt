@@ -4,7 +4,7 @@ partition: creep.png
 youtube: hthttps://www.youtube.com/watch?v=XFkzRNyygfk
 paroles:
 
-------------------Intro Guitare
+[Intro Guitare]
 
 When you were here before
 Couldn't look you in the eyes

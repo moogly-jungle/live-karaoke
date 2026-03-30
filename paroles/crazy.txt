@@ -4,7 +4,7 @@ partition: crazy.png
 youtube: https://youtu.be/Qe500eIK1oA
 paroles:
 
------------- Intro basse
+[ Intro à la basse ]
 
 I remember when, I remember, I remember when I lost my mind
 There was something so pleasant about that place.
@@ -25,7 +25,7 @@ Probably
 And I hope that you are having the time of your life
 But think twice, that's my only advice
 
---
+---
 
 Come on now, who do you, who do you, who do you, who do you think you are,
 Ha ha ha bless your soul
@@ -39,7 +39,7 @@ Just like me
 My heroes had the heart to lose their lives out on a limb
 And all I remember is thinking, I want to be like them
 
---
+---
 
 Ever since I was little, ever since I was little it looked like fun
 And it's no coincidence I've come

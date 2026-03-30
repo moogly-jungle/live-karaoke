@@ -4,7 +4,7 @@ partition: bambino.png
 youtube: https://youtu.be/YM-xhNVfzkg
 paroles:
 
-Intro -----------Instrumental
+[Intro : Instrumental]
 
 Les yeux battus,
 La mine triste et les joues blêmes,

@@ -4,7 +4,7 @@ youtube: https://www.youtube.com/watch?v=0aUav1lx3rA
 partition: bella_ciao.png
 paroles:
 
-Intro ------------ Boucle guitare
+[ Introduction = Boucle à la guitare ]
 
 Una mattina mi son svegliato
 O bella ciao, bella ciao, bella ciao, ciao, ciao

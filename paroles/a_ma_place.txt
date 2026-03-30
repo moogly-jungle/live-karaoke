@@ -3,7 +3,7 @@ artiste: Axel Bauer et Zazie
 partition: a_ma_place.png
 youtube: https://youtu.be/vOznRtE4fOg
 paroles:
-------------   boucle guitare
+[boucle guitare]
 
 (Lui)
 Serait-elle à ma place
@@ -64,7 +64,7 @@ Je n'attends pas de toi que tu me comprennes
 Mais seulement que tu m'aimes
 Seulement que tu m'aimes pour ce que je suis
 
-----------------Pont Guitare
+[Pont Guitare]
 
 
 
