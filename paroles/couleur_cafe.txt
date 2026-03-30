@@ -5,9 +5,7 @@ partition: couleur_cafe.png
 paroles:
 
 
---------------Intro percussions et basse
-
-
+[ Intro percussions et basse ]
 
 J'aime ta couleur café
 Tes cheveux café
@@ -33,7 +31,7 @@ Ce soir, la nuit sera blanche
 (Couleur café)
 (Que j'aime ta couleur café)
 
------------------Pont instrumental
+[ Pont instrumental }
 
 
 L'amour, sans philosopher

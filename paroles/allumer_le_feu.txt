@@ -4,7 +4,7 @@ youtube: https://youtu.be/HzysvIiyzbY
 partition: allumer_le_feu.png
 paroles:
 
-Intro ---------Guitare 
+[ Intro à la guitare ]
 
 Tourner le temps à l'orage
 Revenir à l'état sauvage
@@ -56,7 +56,7 @@ Et voir grandir la flamme dans vos yeux
 
 Allume-e-e-r le feu ! 
 
---------------- Pont guitare
+[ Pont à la guitare ]
 
 Il suffira d'une étincelle
 D'un rien, d'un geste

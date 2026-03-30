@@ -4,7 +4,7 @@ partition: aline.png
 youtube: https://youtu.be/8wBljj6JQgY
 paroles:
 
-Intro --------------- Instrumental
+[ Intro : Instrumental]
 
 J'avais dessiné sur le sable
 Son doux visage qui me souriait

@@ -3,7 +3,8 @@ artiste: Cesaria Evora, Dalida
 youtube: 
 partition: besame_mucho.png
 paroles:
-(version française plus bas)
+
+[Version Espagnole - vf plus bas]
 
 Bésame,
 bésame mucho
@@ -43,7 +44,7 @@ bésame mucho
 que tengo miedo a tenerte
 y perder te despues.
 
-------------------Instrumental
+[ Instrumental ]
 
   Quiero tenerte muy cerca
   mirarme en tus ojos
@@ -66,8 +67,7 @@ y perder te despues.
 
 
 
---
-
+[ Version française ]
 
 Besame besame mucho
 Cette chanson d'autrefois 
@@ -89,7 +89,7 @@ Toute ma vie, je voudrais
 la chanter avec toi
 
 
---------------  Instrumental 
+[ Instrumental ]
 
 
 On ne demande à l'amour

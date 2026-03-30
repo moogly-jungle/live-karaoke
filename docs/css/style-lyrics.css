@@ -1,0 +1,47 @@
+/*
+pour les indications dans les paroles (couplet, refrain etc)
+*/
+
+.indication {
+	font-weight: bold;
+	font-size: x-large;
+	color: white;
+	background-color: gray;
+}
+
+pre { 
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	font-size: 16px; /* base lisible pour tout écran */
+
+}
+
+/*
+  gestion du dark mode
+
+  le code HTML contient un bouton
+
+<button onclick="document.body.classList.toggle('dark');"
+>Mode Sombre/Clair</button>
+*/
+
+body {
+	background-color: #fff7f0;
+	color: black;
+}
+
+
+body.dark {
+	     background-color: #202040;
+         color: #ffffff;
+}
+
+body.dark  a {
+	background-color: white;
+}
+

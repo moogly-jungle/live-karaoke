@@ -4,9 +4,9 @@ youtube: https://youtu.be/OgmAy9e8fpA
 partition: comme_un_boomerang.png
 paroles:
 
----------------- INTRO
-ELLE
+[ Introduction : instrumental]
 
+[ELLE:]
 Je sens des boums et des bangs
 Agiter mon cœur blessé
 L'amour comme un boomerang
@@ -14,8 +14,7 @@ Me revient des jours passés
 À pleurer les larmes dingues
 D'un corps que je t'avais donné
 
-LUI
-
+[LUI:]
 J'ai sur le bout de la langue
 Ton prénom presque effacé
 Tordu comme un boomerang
@@ -23,8 +22,7 @@ Mon esprit l'a rejeté
 De ma mémoire, car la bringue
 Et ton amour m'ont épuisé
 
-ELLE
-
+[ELLE:]
 Je sens des boums et des bangs
 Agiter mon cœur blessé
 L'amour comme un boomerang
@@ -32,8 +30,7 @@ Me revient des jours passés
 À s'aimer comme des dingues
 Comme deux fous à lier
 
-LUI
-
+[LUI:]
 Sache que ce cœur exsangue
 Pourrait un jour s'arrêter
 Si comme un boomerang
@@ -41,40 +38,36 @@ Tu ne reviens pas me chercher
 Peu à peu, je me déglingue
 Victime de ta cruauté
 
-ENSEMBLE
-
+[ENSEMBLE:]
 Je sens des boums et des bangs
 Agiter mon cœur blessé
 L'amour comme un boomerang
 Me revient des jours passés
 
-ELLE
+[ELLE:]
 À t'aimer comme une dingue
 Prête pour toi à me damner
 
-LUI
-
+[LUI:]
 Toi qui fais partie du gang
 De mes séducteurs passés
 Prends garde à ce boomerang
 Il pourrait te faire payer
-Toutes ces torturesde cinglées
+Toutes ces tortures de cinglées
 Que tu m'as fait endurer
 
-ENSEMBLE
-
+[ENSEMBLE:]
 Je sens des boums et des bangs
 Agiter mon cœur blessé
 L'amour comme un boomerang
 Me revient des jours passés
 
-ELLE 
+[ELLE:] 
 
 C'est une histoire de dingue
 Une histoire bête à pleurer
 
-LUI 
-
+[LUI:]
 Ma raison vacille et tangue
 Elle est prête à chavirer
 Sous les coups de boomerang
@@ -83,8 +76,7 @@ Et si un jour, je me flingue
 C'est à toi que je le devrais
 
 
-ENSEMBLE 
-
+[ENSEMBLE:]
 Je sens des boums et des bangs
 Agiter mon cœur blessé
 L'amour comme un boomerang

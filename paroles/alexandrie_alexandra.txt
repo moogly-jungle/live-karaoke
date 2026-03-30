@@ -4,7 +4,7 @@ partition: alexandrie_alexandra.png
 youtube: https://music.youtube.com/watch?v=ZRaOzXS1slI
 paroles:
 
-Intro -----------Instrumental
+[Intro = Instrumental]
  
 Rah! Ah!
 Rah! Ah!

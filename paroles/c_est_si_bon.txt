@@ -3,6 +3,7 @@ artiste: Yves Montand
 partition: c_est_si_bon.png
 youtube: https://www.youtube.com/watch?v=_UlLidUdP08
 paroles:
+
 C'est si bon
 De partir n'importe où
 Bras dessus, bras dessous
@@ -21,8 +22,7 @@ Et si nous nous aimons
 C'est parce que c'est si bon
 
 
--------------------Instrumental
-
+[ Instrumental ]
 
 C'est inouï ce qu'elle a pour séduire
 Sans parler de c'que je n'peux pas dire
