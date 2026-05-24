@@ -1,7 +1,7 @@
 titre: Creep
 artiste: RadioHead
 partition: creep.png
-youtube: hthttps://www.youtube.com/watch?v=XFkzRNyygfk
+youtube: https://www.youtube.com/watch?v=XFkzRNyygfk
 paroles:
 
 [Intro Guitare]
