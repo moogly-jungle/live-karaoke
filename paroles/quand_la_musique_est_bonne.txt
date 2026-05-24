@@ -1,6 +1,6 @@
 titre: Quand la musique est bonne
 artiste: Jean-Jacques Goldman
-youtube:
+youtube: https://youtu.be/-boDeijWuOY
 partition: quand_la_musique_est_bonne.png
 paroles:
 J’ai trop saigné sur les Gibson
