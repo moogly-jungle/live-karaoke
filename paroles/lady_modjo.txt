@@ -1,6 +1,6 @@
 titre: Lady (Hear Me Tonight)
 artiste: Modjo
-youtube: https://www.youtube.com/watch?v=fAl1Y59e0cc
+youtube: http://youtu.be/fAl1Y59e0cc
 partition: lady_modjo.png
 paroles:
 Lady

@@ -1,6 +1,6 @@
 titre: C'est la Ouate
 artiste: Caroline Loeb
-youtube: https://www.youtube.com/watch?v=wSGBwlLSJO8
+youtube: http://youtu.be/wSGBwlLSJO8
 partition: c_est_la_ouate.png
 paroles:
 Paresseuse

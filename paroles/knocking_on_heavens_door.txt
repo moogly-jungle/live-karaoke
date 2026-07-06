@@ -1,6 +1,6 @@
 titre: Knocking on Heaven's Door
 artiste: Bob Dylan
-youtube: https://www.youtube.com/watch?v=rm9coqlk8fY
+youtube: http://youtu.be/rm9coqlk8fY
 partition: knocking_on_heavens_door.png
 paroles:
 Mama take this badge from me

@@ -1,6 +1,6 @@
 titre: Redemption Song
 artiste: Bob Marley
-youtube: https://www.youtube.com/watch?v=kOFu6b3w6c0
+youtube: http://youtu.be/kOFu6b3w6c0
 partition: redemption_song.png
 paroles:
 Old pirates, yes, they rob I

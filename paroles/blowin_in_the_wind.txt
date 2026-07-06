@@ -1,6 +1,6 @@
 titre: Blowin'In The Wind
 artiste: Bob Dylan
-youtube: https://www.youtube.com/watch?v=vWwgrjjIMXA
+youtube: http://youtu.be/vWwgrjjIMXA
 partition: blowin_in_the_wind.png 
 paroles:
 

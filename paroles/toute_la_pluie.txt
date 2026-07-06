@@ -1,6 +1,6 @@
 titre: Toute La Pluie Tombe Sur Moi
 artiste: Sacha Distel, Eddy Mitchell
-youtube: https://www.youtube.com/watch?v=gLDdItOf5rA
+youtube: http://youtu.be/gLDdItOf5rA
 partition: toute_la_pluie.png
 paroles:
 Toute la pluie tombe sur moi

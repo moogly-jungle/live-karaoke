@@ -1,6 +1,6 @@
 titre: How Insensitive
 artiste: Tom Jobim
-youtube: https://www.youtube.com/watch?v=4x2i2GITQ0Y
+youtube: http://youtu.be/4x2i2GITQ0Y
 partition: how_insensitive.png
 paroles:
 How insensitive

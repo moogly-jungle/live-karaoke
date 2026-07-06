@@ -1,6 +1,6 @@
 titre: Le Sud
 artiste: Nino Ferrer
-youtube: https://www.youtube.com/watch?v=FgxwKEuy-pM
+youtube: http://youtu.be/FgxwKEuy-pM
 partition: le_sud.png
 paroles:
 C'est un endroit

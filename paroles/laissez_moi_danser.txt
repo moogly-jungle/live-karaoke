@@ -1,6 +1,6 @@
 titre: Laissez-moi danser
 artist: Dalida
-youtube: https://www.youtube.com/watch?v=IM-s3QwWiQ8
+youtube: http://youtu.be/IM-s3QwWiQ8
 partition: laissez_moi_danser.png
 paroles:
 Monday

@@ -1,6 +1,6 @@
 titre: Les Copains d'abord
 artiste: George Brassens
-youtube: https://www.youtube.com/watch?v=L9oEcWFjF3M
+youtube: http://youtu.be/L9oEcWFjF3M
 partition: les_copains_d_abord.png
 paroles:
 Non, ce n'était pas le radeau

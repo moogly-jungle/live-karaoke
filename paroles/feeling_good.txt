@@ -1,6 +1,6 @@
 titre: Feeling Good
 artiste: Nina Simone
-youtube: https://www.youtube.com/watch?v=oHs98TEYecM
+youtube: http://youtu.be/oHs98TEYecM
 partition: feeling_good.png
 paroles:
 Birds flying high, you know how I feel

@@ -1,6 +1,6 @@
 title: Stand By Me
 artist: Ben E. King
-youtube: https://www.youtube.com/watch?v=einn_UJgGGM
+youtube: http://youtu.be/einn_UJgGGM
 partition: stand_by_me.png
 notes: boucle  | A | % | F#-| % | D | E | A | % |
 paroles:

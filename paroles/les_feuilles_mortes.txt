@@ -1,6 +1,6 @@
 titre: Les Feuilles Mortes
 artiste: Yves Montand
-youtube: https://www.youtube.com/watch?v=O1aVWu2rBhE
+youtube: http://youtu.be/O1aVWu2rBhE
 partition: les_feuilles_mortes.png
 paroles: 
 [Parlé]

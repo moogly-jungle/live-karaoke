@@ -1,6 +1,6 @@
 titre: I Shot The Sheriff
 artiste: Bob Marley
-youtube: https://www.youtube.com/watch?v=zGO8HN1QQdI
+youtube: http://youtu.be/zGO8HN1QQdI
 partition: i_shot_the_sheriff.png
 paroles:
 (I shot the sheriff, but I didn't shoot no deputy, oh no, oh

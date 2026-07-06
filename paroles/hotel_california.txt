@@ -1,6 +1,6 @@
 titre: Hotel California
 artiste: Eagles
-youtube: https://www.youtube.com/watch?v=09839DpTctU
+youtube: http://youtu.be/09839DpTctU
 partition: hotel_california.png
 paroles:
 On a dark desert highway, cool wind in my hair

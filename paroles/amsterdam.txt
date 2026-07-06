@@ -1,6 +1,6 @@
 titre: Amsterdam
 artiste: Jacques Brel
-youtube: https://www.youtube.com/watch?v=V3BSj1cHX-M
+youtube: http://youtu.be/V3BSj1cHX-M
 partition: amsterdam.png
 paroles:
 Dans le port d'Amsterdam

@@ -1,6 +1,6 @@
 titre: I Will Survive
 artiste: Gloria Gaynor
-youtube: https://www.youtube.com/watch?v=6dYWe1c3OyU
+youtube: http://youtu.be/6dYWe1c3OyU
 partition: i_will_survive.png
 paroles:
 At first I was afraid, I was petrified

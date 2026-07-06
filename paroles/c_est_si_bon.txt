@@ -1,7 +1,7 @@
 titre: C'est si bon
 artiste: Yves Montand
 partition: c_est_si_bon.png
-youtube: https://www.youtube.com/watch?v=_UlLidUdP08
+youtube: http://youtu.be/_UlLidUdP08
 paroles:
 
 C'est si bon

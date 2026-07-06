@@ -1,6 +1,6 @@
 titre: S'il suffisait d'aimer
 artiste: Céline Dion
-youtube: https://www.youtube.com/watch?v=2vmHANYQcVw
+youtube: http://youtu.be/2vmHANYQcVw
 partition: s_il_suffisait_d_aimer.png
 paroles:
 Je rêve son visage, je décline son corps

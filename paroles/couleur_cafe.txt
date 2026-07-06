@@ -1,6 +1,6 @@
 titre: Couleur Café
 artiste: Serge Gainsbourg
-youtube: https://www.youtube.com/watch?v=K3OozfVG4tY
+youtube: http://youtu.be/K3OozfVG4tY
 partition: couleur_cafe.png
 paroles:
 

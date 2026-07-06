@@ -1,6 +1,6 @@
 titre: Emmenez-moi
 artiste: Charles Aznavour
-youtube: https://www.youtube.com/watch?v=0OrKMaeQUx0
+youtube: http://youtu.be/0OrKMaeQUx0
 partition: emmenez_moi.png
 paroles:
 Vers les docks où le poids et l'ennui

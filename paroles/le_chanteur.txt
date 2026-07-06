@@ -1,6 +1,6 @@
 titre: Le chanteur
 artiste: Daniel Balavoine
-youtube: https://www.youtube.com/watch?v=HXdP15Ubu6M
+youtube: http://youtu.be/HXdP15Ubu6M
 partition: le_chanteur.png
 paroles:
 J'me présente, je m'appelle Henri

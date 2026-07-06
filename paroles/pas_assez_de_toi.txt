@@ -1,6 +1,6 @@
 titre: Pas Assez de Toi
 artiste: Mano Negra
-youtube: https://www.youtube.com/watch?v=OSvklUkAVk8
+youtube: http://youtu.be/OSvklUkAVk8
 partition: pas_assez_de_toi.png
 paroles:
 J'ai comme envie de tourner le gaz

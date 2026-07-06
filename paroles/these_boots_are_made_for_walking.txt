@@ -1,6 +1,6 @@
 titre: These Boots Are Made For Walking
 artiste: Nancy Sinatra
-youtube: https://www.youtube.com/watch?v=GM1kzbAgo_E
+youtube: http://youtu.be/GM1kzbAgo_E
 partition: these_boots_are_made_for_walking.png
 paroles:
 You keep saying you got something for me

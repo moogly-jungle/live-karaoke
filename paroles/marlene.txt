@@ -1,6 +1,6 @@
 titre: Marlène
 artiste: Noir Désir
-youtube: https://www.youtube.com/watch?v=rLIUoex9Hyg
+youtube: http://youtu.be/rLIUoex9Hyg
 partition: marlene.png
 paroles:
 Oh, Marlène

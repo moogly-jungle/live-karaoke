@@ -1,7 +1,7 @@
 titre: All I Want For Christmas Is You
 artiste: Mariah Carey, Justin Bieber
 partition: all_i_want_for_christmas.png
-youtube: https://www.youtube.com/watch?v=yXQViqx6GMY
+youtube: http://youtu.be/yXQViqx6GMY
 paroles:
 I don't want a lot for Christmas
 There is just one thing I need

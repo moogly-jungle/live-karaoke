@@ -1,6 +1,6 @@
 titre: Natural Mystic
 artiste: Bob Marley
-youtube: https://www.youtube.com/watch?v=UZfaIx57UqU
+youtube: http://youtu.be/UZfaIx57UqU
 partition: natural_mystic.png
 paroles:
 There's a natural mystic

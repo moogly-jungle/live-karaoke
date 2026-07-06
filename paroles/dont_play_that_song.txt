@@ -2,7 +2,7 @@ titre: Don't Play That Song (You Lied)
 artiste: B. Springsteen, A. Celentano; A. Franklin
 partition: dont_play_that_song.png
 notes: boucle  | D | % | B- | % | G | % | A | % |
-youtube: https://www.youtube.com/watch?v=OwUbvf5--FQ
+youtube: http://youtu.be/OwUbvf5--FQ
 paroles:
 [Verse 1]
 Don't play that song for me

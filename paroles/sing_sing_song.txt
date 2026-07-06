@@ -1,6 +1,6 @@
 titre: Sing Sing Song
 artiste: Claude Nougaro
-youtube: https://www.youtube.com/watch?v=E7dV8NIfHmU
+youtube: http://youtu.be/E7dV8NIfHmU
 partition: sing_sing.png
 paroles:
 Quand le jour se lève sur Sing-Sing

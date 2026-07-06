@@ -1,6 +1,6 @@
 titre: Champs Elysées
 artiste: Joe Dassin
-youtube: https://www.youtube.com/watch?v=tDWeLlvYyYU
+youtube: http://youtu.be/tDWeLlvYyYU
 partition: champs_elysees.png
 paroles:
 Je m'baladais sur l'avenue

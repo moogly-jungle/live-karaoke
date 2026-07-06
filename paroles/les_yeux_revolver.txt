@@ -1,6 +1,6 @@
 titre: Les yeux revolver
 artiste: Marc Lavoine
-youtube: https://www.youtube.com/watch?v=cuLZs39okbY
+youtube: http://youtu.be/cuLZs39okbY
 partition: les_yeux_revolver.png
 tabs: https://fr.ultimate-guitar.com/tab/marc-lavoine/elle-a-les-yeux-revolver-chords-1708219
 paroles:

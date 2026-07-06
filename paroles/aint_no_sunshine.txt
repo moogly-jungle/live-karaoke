@@ -1,6 +1,6 @@
 titre: Ain't No Sunshine
 artiste: Bill Withers
-youtube: https://www.youtube.com/watch?v=YuKfiH0Scao
+youtube: http://youtu.be/YuKfiH0Scao
 partition: aint_no_sunshine.png
 tabs: https://tabs.ultimate-guitar.com/tab/bill-withers/aint-no-sunshine-chords-468744
 paroles:

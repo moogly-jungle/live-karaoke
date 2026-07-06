@@ -1,6 +1,6 @@
 titre: Le Tourbillon de la Vie
 artiste: Jeanne Moreau
-youtube: https://www.youtube.com/watch?v=B4nHBn8zypc
+youtube: http://youtu.be/B4nHBn8zypc
 partition: le_tourbillon_de_la_vie.png
 paroles:
 Elle avait des bagues à chaque doigt

@@ -1,6 +1,6 @@
 titre: Le Voyage En Italie
 artiste: Lilicub
-youtube: https://www.youtube.com/watch?v=Fs-iG3-asSQ
+youtube: http://youtu.be/Fs-iG3-asSQ
 partition: le_voyage_en_italie.png
 paroles:
 Faire une virée à deux

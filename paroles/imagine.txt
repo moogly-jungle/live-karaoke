@@ -1,6 +1,6 @@
 titre: Imagine
 artiste: John Lennon
-youtube: https://youtu.be/iOs9Osz3UFQ?t=3
+youtube: http://youtu.be/3
 partition: imagine.png
 paroles: 
 Imagine there's no heaven

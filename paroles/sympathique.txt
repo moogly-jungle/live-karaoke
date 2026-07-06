@@ -1,6 +1,6 @@
 titre: Sympathique (Je ne veux pas travailler)
 artiste: Pink Martini
-youtube: https://www.youtube.com/watch?v=ANVQScgIeag
+youtube: http://youtu.be/ANVQScgIeag
 partition: sympathique.png
 paroles:
 Ma chambre a la forme d'une cage

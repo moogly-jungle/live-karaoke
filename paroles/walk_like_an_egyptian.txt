@@ -1,6 +1,6 @@
 titre: Walk Like An Egyptian
 artiste: Bangles
-youtube: https://www.youtube.com/watch?v=JA0VfqtIK_A
+youtube: http://youtu.be/JA0VfqtIK_A
 partition: walk_like_an_egyptian.png
 paroles:
 All the old paintings on the tomb

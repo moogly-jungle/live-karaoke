@@ -1,6 +1,6 @@
 titre: Capri c'est fini
 artiste: Hervé Vilard
-youtube: https://youtu.be/4TP3u0rNkys?si=NL9c9mZ475JaYrMN
+youtube: http://youtu.be/NL9c9mZ475JaYrMN
 partition: capri_c_est_fini.png
 paroles:
 

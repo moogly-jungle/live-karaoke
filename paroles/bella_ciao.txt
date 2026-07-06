@@ -1,6 +1,6 @@
 titre: Bella Ciao
 artiste: Yves Montand
-youtube: https://www.youtube.com/watch?v=0aUav1lx3rA
+youtube: http://youtu.be/0aUav1lx3rA
 partition: bella_ciao.png
 paroles:
 

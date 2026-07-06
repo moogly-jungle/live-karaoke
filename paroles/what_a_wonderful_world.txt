@@ -1,7 +1,7 @@
 title: What A Wonderful World
 artiste: Louis Armstrong
 partition: what_a_wonderful_world.png
-youtube: https://www.youtube.com/watch?v=VqhCQZaH4Vs
+youtube: http://youtu.be/VqhCQZaH4Vs
 paroles:
 I see trees of green
 Red roses too

@@ -1,6 +1,6 @@
 titre: Ma philosophie
 artiste: Amel Bent
-youtube: https://www.youtube.com/watch?v=D38EUIll1pM
+youtube: http://youtu.be/D38EUIll1pM
 partition: ma_philosophie.png
 paroles:
 Je n'ai qu'une philosophie

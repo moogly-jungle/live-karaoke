@@ -1,6 +1,6 @@
 titre: La Voix Des Sages 
 artiste: Yannick Noah
-youtube: https://www.youtube.com/watch?v=pS3rkCJ-_Lo
+youtube: http://youtu.be/pS3rkCJ-_Lo
 partition: la_voix_des_sages.png
 paroles:
 Quand je ne crois plus à mes rêves
