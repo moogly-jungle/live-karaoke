@@ -1,6 +1,6 @@
 titre: Dream a Little Dream of You
 artiste: Louis Armstrong et Ella Fitzgerald
-youtube: https://www.youtube.com/watch?v=fJwjLYRPxJY
+youtube: http://youtu.be/fJwjLYRPxJY
 partition: dream_a_little_dream_of_me.png
 paroles:
 Stars shining bright above you

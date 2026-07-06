@@ -1,6 +1,6 @@
 titre: Walk On The Wild Side
 artiste: Lou Reed
-youtube: https://www.youtube.com/watch?v=oG6fayQBm9w
+youtube: http://youtu.be/oG6fayQBm9w
 partition: walk_on_the_wild_side.png
 notes: couplet | C    | F    |  C  | F  |
 notes: +       | C D- | F D- |

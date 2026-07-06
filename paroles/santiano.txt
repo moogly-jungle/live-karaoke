@@ -1,6 +1,6 @@
 titre: Santiano
 artiste: Hughes Aufray
-youtube: https://www.youtube.com/watch?v=VQd1IOyhKS4
+youtube: http://youtu.be/VQd1IOyhKS4
 partition: santiano.png
 paroles:
 C'est un fameux trois-mâts, fin comme un oiseau

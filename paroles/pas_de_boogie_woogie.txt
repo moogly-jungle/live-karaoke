@@ -1,6 +1,6 @@
 titre:Pas de Boogie Woogie
 artiste: Eddy Mitchell
-youtube: https://www.youtube.com/watch?v=EEbOMyB2YJQ
+youtube: http://youtu.be/EEbOMyB2YJQ
 partition: pas_de_boogie_woogie.png
 paroles:
 Le pape a dit que l'acte d'amour

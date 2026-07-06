@@ -1,6 +1,6 @@
 titre: Stand By Your Man
 artiste: Tammy Wynette
-youtube: https://www.youtube.com/watch?v=AM-b8P1yj9w
+youtube: http://youtu.be/AM-b8P1yj9w
 partition: stand_by_your_man.png
 paroles:
 I've been accused, among other things

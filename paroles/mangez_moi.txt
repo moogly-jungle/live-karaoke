@@ -1,6 +1,6 @@
 titre: Mangez-moi mangez-moi
 artiste: Billy ze Kick
-youtube: https://www.youtube.com/watch?v=taOsuVhXqzY
+youtube: http://youtu.be/taOsuVhXqzY
 partition: mangez_moi.png
 paroles:
 Un après-midi d'automne

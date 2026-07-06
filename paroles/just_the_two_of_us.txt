@@ -1,6 +1,6 @@
 titre: Just The Two Of Us
 artiste: Bill Withers
-youtube: https://www.youtube.com/watch?v=v8oqbWrP1QY
+youtube: http://youtu.be/v8oqbWrP1QY
 partition: just_the_two_of_us.png
 paroles:
 I see the crystal raindrops fall

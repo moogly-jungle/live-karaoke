@@ -1,6 +1,6 @@
 titre: Honesty
 artiste: Billy Joel
-youtube: https://www.youtube.com/watch?v=SuFScoO4tb0
+youtube: http://youtu.be/SuFScoO4tb0
 partition: honesty.png
 paroles:
 If you search for tenderness

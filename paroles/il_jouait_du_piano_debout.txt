@@ -1,6 +1,6 @@
 titre: Il jouait du piano debout
 artiste: Michel Berger, France Gall
-youtube: https://www.youtube.com/watch?v=7l7eXx_8DHY
+youtube: http://youtu.be/7l7eXx_8DHY
 partition: il_jouait_du_piano_debout.png
 paroles:
 Ne dites pas que ce garçon était fou

@@ -1,6 +1,6 @@
 titre: La symphonie des éclairs
 artiste: Zaho de Sagazan
-youtube: https://www.youtube.com/watch?v=pqo59FkF_5g
+youtube: http://youtu.be/pqo59FkF_5g
 partition: la_symphonie_des_eclairs.png
 tabs: https://tabs.ultimate-guitar.com/tab/4711379
 paroles:

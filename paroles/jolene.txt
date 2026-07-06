@@ -1,6 +1,6 @@
 titre: Jolene
 artiste: Dolly Parton
-youtube: https://www.youtube.com/watch?v=Ixrje2rXLMA
+youtube: http://youtu.be/Ixrje2rXLMA
 partition: jolene.png
 paroles:
 Jolene, Jolene, Jolene, Jolene

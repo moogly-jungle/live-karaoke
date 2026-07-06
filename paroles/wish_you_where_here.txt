@@ -1,6 +1,6 @@
 titre: Wish You Were Here
 artiste: Pink Floyd
-youtube: https://www.youtube.com/watch?v=3j8mr-gcgoI
+youtube: http://youtu.be/3j8mr-gcgoI
 partition: wish_you_where_here.png
 paroles:
 So, so you think you can tell

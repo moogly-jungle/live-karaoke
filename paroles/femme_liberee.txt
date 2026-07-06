@@ -1,6 +1,6 @@
 titre: Femme Libérée
 artiste: Cookie Dingler
-youtube: https://www.youtube.com/watch?v=8WDwvngENn0
+youtube: http://youtu.be/8WDwvngENn0
 partition: femme_liberee.png 
 paroles:
 Elle est abonnée à Marie Claire

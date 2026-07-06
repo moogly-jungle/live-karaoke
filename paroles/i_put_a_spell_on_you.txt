@@ -1,6 +1,6 @@
 titre: I Put A Spell On You
 artiste: Annie Lennox
-youtube:  https://www.youtube.com/watch?v=3TrSMaOZm3Y
+youtube:  http://youtu.be/3TrSMaOZm3Y
 partition: i_put_a_spell_on_you.png
 paroles:
 I put a spell on you

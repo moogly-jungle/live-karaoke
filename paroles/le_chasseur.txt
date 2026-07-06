@@ -1,7 +1,7 @@
 titre: Le Chasseur
 artiste: Michel Delpech
 partition: le_chasseur.png
-youtube: https://www.youtube.com/watch?v=MZqWj1riYvM
+youtube: http://youtu.be/MZqWj1riYvM
 paroles:
 Il était cinq heures du matin
 On avançait dans les marais

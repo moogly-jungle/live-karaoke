@@ -1,6 +1,6 @@
 titre: You Never Can Tell
 artiste: Chuck Berry
-youtube: https://www.youtube.com/watch?v=55_9o8LoWiw
+youtube: http://youtu.be/55_9o8LoWiw
 partition: you_never_can_tell.png
 paroles:
 It was a teenage wedding and the old folks wished them well

@@ -1,6 +1,6 @@
 titre: Pour que tu m'aimes encore
 artiste: Céline Dion
-youtube: https://www.youtube.com/watch?v=AzaTyxMduH4
+youtube: http://youtu.be/AzaTyxMduH4
 partition: pour_que_tu_m_aimes_encore.png
 paroles:
 J'ai compris tous les mots, j'ai bien compris, merci

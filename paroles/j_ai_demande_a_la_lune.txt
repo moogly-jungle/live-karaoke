@@ -1,6 +1,6 @@
 titre: J'ai demandé à la lune
 artiste: Indochine
-youtube: https://www.youtube.com/watch?v=KAOmC5qT02w
+youtube: http://youtu.be/KAOmC5qT02w
 partition: j_ai_demande_a_la_lune.png
 paroles:
 J'ai demandé à la lune

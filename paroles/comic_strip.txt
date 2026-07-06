@@ -1,7 +1,7 @@
 title: Comic Strip
 artist: Serge Gainsbourg
 partition: comic_strip.png
-youtube: https://www.youtube.com/watch?v=ncNun_ZiFvk
+youtube: http://youtu.be/ncNun_ZiFvk
 paroles:
 
 

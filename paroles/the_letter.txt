@@ -1,6 +1,6 @@
 titre: The Letter
 artiste: The Box Tops
-youtube: https://www.youtube.com/watch?v=HIWY8UyW9bw
+youtube: http://youtu.be/HIWY8UyW9bw
 partition: the_letter.png
 paroles:
 [Couplet 1]

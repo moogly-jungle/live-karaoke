@@ -1,6 +1,6 @@
 titre: J'irai où tu iras
 artiste: Céline Dion et Jean-Jacques Goldman
-youtube: https://www.youtube.com/watch?v=0J3wIDAaLSU
+youtube: http://youtu.be/0J3wIDAaLSU
 partition: j_irai_ou_tu_iras.png
 paroles:
 Chez moi, les forêts se balancent

@@ -1,7 +1,7 @@
 titre: Alexandrie Alexandra
 artiste: Claude François
 partition: alexandrie_alexandra.png
-youtube: https://music.youtube.com/watch?v=ZRaOzXS1slI
+youtube: http://youtu.be/ZRaOzXS1slI
 paroles:
 
 [Intro = Instrumental]

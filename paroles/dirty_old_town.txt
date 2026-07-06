@@ -1,6 +1,6 @@
 titre: Dirty Old Town
 artiste: Pogues, Ewan MacColl
-youtube: https://www.youtube.com/watch?v=TWVEJNBlfxo
+youtube: http://youtu.be/TWVEJNBlfxo
 partition: dirty_old_town.png
 tabs: https://tabs.ultimate-guitar.com/tab/the-pogues/dirty-old-town-chords-80132
 paroles:

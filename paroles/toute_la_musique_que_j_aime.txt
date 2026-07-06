@@ -1,6 +1,6 @@
 titre: Toute la musique que j'aime
 artiste: Johnny Hallyday
-youtube: https://www.youtube.com/watch?v=1AnAr48uVP8
+youtube: http://youtu.be/1AnAr48uVP8
 partition: toute_la_musique_que_j_aime.png
 paroles:
 Toute la musique que j'aime

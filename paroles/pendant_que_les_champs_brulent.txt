@@ -1,6 +1,6 @@
 titre: Pendant que les champs brûlent
 artiste: Niagara
-youtube: https://www.youtube.com/watch?v=NTVvmCAEg3A
+youtube: http://youtu.be/NTVvmCAEg3A
 partition: pendant_que_les_champs_brulent.png 
 paroles:
 Des arbres se penchent :

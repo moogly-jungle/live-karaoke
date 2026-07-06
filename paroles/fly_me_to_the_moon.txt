@@ -1,6 +1,6 @@
 titre: Fly Me To The Moon
 artiste: Bart Howard, Franck Sinatra
-youtube: https://www.youtube.com/watch?v=ZEcqHA7dbwM
+youtube: http://youtu.be/ZEcqHA7dbwM
 partition: fly_me_to_the_moon.png
 paroles:
 Fly me to the moon

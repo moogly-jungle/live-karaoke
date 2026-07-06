@@ -1,6 +1,6 @@
 titre: Super Nana
 artiste: Michel Jonasz, JC Vannier
-youtube: https://www.youtube.com/watch?v=m-RreLsLZNs
+youtube: http://youtu.be/m-RreLsLZNs
 partition: super_nana.png
 paroles:
 

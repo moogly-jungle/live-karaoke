@@ -1,6 +1,6 @@
 titre: Porque te vas
 artiste: Jeanette
-youtube: https://www.youtube.com/watch?v=TjUhXbGdLYo
+youtube: http://youtu.be/TjUhXbGdLYo
 partition: porque_te_vas.png
 tabs: https://es.ultimate-guitar.com/tab/jeanette/porque-te-vas-chords-616821
 paroles:

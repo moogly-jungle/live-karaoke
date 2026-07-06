@@ -1,6 +1,6 @@
 titre: Je te promets
 artiste: Johnny Hallyday
-youtube: https://www.youtube.com/watch?v=-TkrMyXYbik
+youtube: http://youtu.be/-TkrMyXYbik
 partition: je_te_promets.png
 paroles:
 Je te promets le sel au baiser de ma bouche.

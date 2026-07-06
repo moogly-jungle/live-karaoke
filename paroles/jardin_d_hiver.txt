@@ -1,6 +1,6 @@
 titre: Jardin d'Hiver
 artiste: Henri Salvador, Benjamin Biolay
-youtube: https://www.youtube.com/watch?v=gFkUVik35U8
+youtube: http://youtu.be/gFkUVik35U8
 partition: jardin_d_hiver.png
 paroles:
 Je voudrais du soleil vert

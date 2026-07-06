@@ -1,6 +1,6 @@
 titre: What's up
 artiste: 4 Non Blondes
-youtube: https://www.youtube.com/watch?v=6NXnxTNIWkc
+youtube: http://youtu.be/6NXnxTNIWkc
 partition: what_s_up.png
 tabs: https://tabs.ultimate-guitar.com/tab/4-non-blondes/whats-up-chords-349210
 paroles:
