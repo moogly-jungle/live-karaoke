@@ -50,16 +50,27 @@
 	    items = document.querySelectorAll('.song');
 	}
 
+	// simplifie un texte pour la recherche : minuscules, sans accents ni apostrophes
+
+	function simplifier(texte) {
+		return texte.normalize('NFD')
+			.replace(/[\u0300-\u036f]/g, '')   // accents
+			.toLowerCase()
+			.replace(/['’‘`]/g, '')            // apostrophes droites ou typographiques
+			.replace(/œ/g, 'oe')
+			.replace(/æ/g, 'ae');
+	}
+
 	// montre ou cache les chansons selon la recherche
 
 	function filterSongs() {
-       const query_string = document.getElementById('search').value.trim().toLowerCase();
+       const query_string = simplifier(document.getElementById('search').value.trim());
        items.forEach(list_item => {
-      // si un élément contient la chaine ... 
-      list_item.style.display = 
+      // si un élément contient la chaine ...
+      list_item.style.display =
         search_selectors.some(selector => {
             const element = list_item.querySelector(selector);
-            return element &&  element.textContent.toLowerCase().includes(query_string);
+            return element && simplifier(element.textContent).includes(query_string);
           }) ? "" : "none";  // visible ou unvisible
       });
     }
@@ -306,7 +317,7 @@
 		<tr>
 		  <td></td>
 		  <td><a href="partitions/capri_c_est_fini.png"><button>&#x1d11e; Partition</button></a>
-		<a href="chansons/capri_c_est_fini.html"><button>&#x1F4D6; Paroles</button></a>- <a href="http://youtu.be/NL9c9mZ475JaYrMN"><button>YouTube</button></a>
+		<a href="chansons/capri_c_est_fini.html"><button>&#x1F4D6; Paroles</button></a>- <a href="https://youtu.be/4TP3u0rNkys"><button>YouTube</button></a>
 		  <hr/></td>
 		</tr>
 	  </tbody>
@@ -880,7 +891,7 @@
 		<tr>
 		  <td></td>
 		  <td><a href="partitions/imagine.png"><button>&#x1d11e; Partition</button></a>
-		<a href="chansons/imagine.html"><button>&#x1F4D6; Paroles</button></a>- <a href="http://youtu.be/3"><button>YouTube</button></a>
+		<a href="chansons/imagine.html"><button>&#x1F4D6; Paroles</button></a>- <a href="https://youtu.be/iOs9Osz3UFQ?t=3"><button>YouTube</button></a>
 		  <hr/></td>
 		</tr>
 	  </tbody>
@@ -1555,7 +1566,7 @@
 		<tr>
 		  <td></td>
 		  <td><a href="partitions/les_moulins_de_mon_coeur.png"><button>&#x1d11e; Partition</button></a>
-		<a href="chansons/les_moulins_de_mon_coeur.html"><button>&#x1F4D6; Paroles</button></a>- <a href="http://youtu.be/30s"><button>YouTube</button></a>
+		<a href="chansons/les_moulins_de_mon_coeur.html"><button>&#x1F4D6; Paroles</button></a>- <a href="https://youtu.be/qsQ0M-DEt2A?t=30"><button>YouTube</button></a>
 		  <hr/></td>
 		</tr>
 	  </tbody>

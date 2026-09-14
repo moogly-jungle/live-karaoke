@@ -41,16 +41,26 @@ def csv_escape(text):
 
 jinja2.filters.FILTERS['csv_escape'] = csv_escape
 
-def latex_escape(text): 
+latex_special_chars = {
+    '\\': r'\textbackslash{}',
+    '{': r'\{',
+    '}': r'\}',
+    '$': r'\$',
+    '&': r'\&',
+    '%': r'\%',
+    '#': r'\#',
+    '_': r'\_',
+    '^': r'\textasciicircum{}',
+    '~': r'\textasciitilde{}',
+}
+
+def latex_escape(text):
     """
     Filter for jinja2. Escape text for LaTeX output.
+    Characters are replaced one at a time, so the braces
+    added for a backslash are not escaped a second time.
     """
-    text = text.replace('\\', '\\textbackslash{}')
-    text = text.replace('{', '\\{')
-    text = text.replace('}', '\\}')
-    text = text.replace('$', '\\$')
-    text = text.replace('&', '\\&')    
-    return text
+    return ''.join(latex_special_chars.get(c, c) for c in text)
 
 jinja2.filters.FILTERS['latex_escape'] = latex_escape
 

@@ -50,16 +50,27 @@
 	    items = document.querySelectorAll('.song');
 	}
 
+	// simplifie un texte pour la recherche : minuscules, sans accents ni apostrophes
+
+	function simplifier(texte) {
+		return texte.normalize('NFD')
+			.replace(/[\u0300-\u036f]/g, '')   // accents
+			.toLowerCase()
+			.replace(/['’‘`]/g, '')            // apostrophes droites ou typographiques
+			.replace(/œ/g, 'oe')
+			.replace(/æ/g, 'ae');
+	}
+
 	// montre ou cache les chansons selon la recherche
 
 	function filterSongs() {
-       const query_string = document.getElementById('search').value.trim().toLowerCase();
+       const query_string = simplifier(document.getElementById('search').value.trim());
        items.forEach(list_item => {
-      // si un élément contient la chaine ... 
-      list_item.style.display = 
+      // si un élément contient la chaine ...
+      list_item.style.display =
         search_selectors.some(selector => {
             const element = list_item.querySelector(selector);
-            return element &&  element.textContent.toLowerCase().includes(query_string);
+            return element && simplifier(element.textContent).includes(query_string);
           }) ? "" : "none";  // visible ou unvisible
       });
     }

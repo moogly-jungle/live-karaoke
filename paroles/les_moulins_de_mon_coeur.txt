@@ -1,6 +1,6 @@
 titre: Les moulins de mon coeur
 artiste: Michel Legrand
-youtube: http://youtu.be/30s
+youtube: https://youtu.be/qsQ0M-DEt2A?t=30
 partition: les_moulins_de_mon_coeur.png
 paroles:
 Comme une pierre que l'on jette dans l'eau vive d'un ruisseau
