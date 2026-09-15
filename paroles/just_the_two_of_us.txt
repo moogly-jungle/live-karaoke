@@ -3,6 +3,7 @@ artiste: Bill Withers
 youtube: http://youtu.be/v8oqbWrP1QY
 partition: just_the_two_of_us.png
 paroles:
+
 I see the crystal raindrops fall
 And the beauty of it all
 Is when the sun comes shining through
@@ -34,6 +35,9 @@ Just the two of us
 Building them castles in the sky
 Just the two of us
 You and I
+
+[ PONT SAX --------------- ]
+
 
 I hear the crystal raindrops fall
 On the window down the hall
